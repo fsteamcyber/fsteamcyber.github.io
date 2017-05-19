@@ -68,6 +68,9 @@ landing-navbar {
   z-index:3;
 }
 
+.landing-navbar-up {
+  top: -55px;
+}
 .ui.container.borderless.inverted.menu .ui.centered.header.item {
   font-weight:normal;
   font-size:22px;

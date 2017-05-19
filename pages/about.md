@@ -1,6 +1,5 @@
 ---
 layout: essay
-type: essay
 title: About Me
 permalink: /about/
 ---
