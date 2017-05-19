@@ -99,12 +99,8 @@ $(document).ready(function(){
     var om = parseInt($mountains.css('background-position').substr(0, $mountains.css('background-position').search(' ')));
     var og = parseInt($grass.css('background-position').substr(0, $grass.css('background-position').search(' ')));
     $container.mousemove(function(e){
-      $mountains.css('background-position', om+((e.clientX-ox)/10)+'px 0px');
-      $grass.css('background-position', og+((e.clientX-ox)/4)+'px 10px');
-    });
-    $container.mouseup(function(){
-      $container.unbind('mousemove');
-      $container.unbind('mouseup');
+      $mountains.css('background-position', om+((e.clientX-ox)/30)+'px 0px');
+      $grass.css('background-position', og+((e.clientX-ox)/10)+'px 10px');
     });
   });
 });
