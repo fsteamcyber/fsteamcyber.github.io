@@ -1,0 +1,33 @@
+html, body, div, span, canvas {
+  margin:0;
+  padding:0;
+}
+#container {
+  overflow:hidden;
+  position:relative;
+}
+#pixie {
+  z-index:0;
+  background:-o-linear-gradient(top, #040429, #257eb7);
+  background:-ms-linear-gradient(top, #040429, #257eb7);
+  background:-moz-linear-gradient(top, #040429, #257eb7);
+  background:-webkit-linear-gradient(top, #040429, #257eb7);
+  background:linear-gradient(top, #040429, #257eb7);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#040429', EndColorStr='#257eb7');
+  -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#040429', EndColorStr='#257eb7')";
+}
+#mountains, #grass {
+  width:100%;
+  position:absolute;
+  bottom:0;
+}
+#mountains {
+  height:156px;
+  z-index:1;
+  background:url(../../images/parallax-homepage/mountains.png) repeat-x 0 0;
+}
+#grass {
+  height:62px;
+  z-index:2;
+  background:url(../../images/parallax-homepage/grass.png) repeat-x left 10px;
+}
