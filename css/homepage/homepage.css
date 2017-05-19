@@ -15,6 +15,7 @@ html, body, div, span, canvas {
   background:linear-gradient(top, #040429, #257eb7);
   filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#040429', EndColorStr='#257eb7');
   -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#040429', EndColorStr='#257eb7')";
+  filter: contrast(105%);
 }
 #mountains, #grass {
   width:100%;
