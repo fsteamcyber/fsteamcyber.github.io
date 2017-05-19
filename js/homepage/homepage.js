@@ -1,11 +1,12 @@
 /**
  * Created by Nathan on 5/18/2017.
  */
+/* Script for background on homepage */
 var WIDTH = window.innerWidth,
     HEIGHT = window.innerHeight,
     MAX_PARTICLES = 100,
     DRAW_INTERVAL = 60,
-    container = document.querySelector('#container'),
+    container = document.querySelector('#container-background'),
     canvas = document.querySelector('#pixie'),
     context = canvas.getContext('2d'),
     gradient = null,
@@ -93,7 +94,7 @@ setInterval(draw, DRAW_INTERVAL);
 $(document).ready(function(){
   var $mountains = $('#mountains');
   var $grass = $('#grass');
-  var $container = $('#container');
+  var $container = $('#container-background');
   $container.mousedown(function(ev){
     var ox = ev.clientX;
     var om = parseInt($mountains.css('background-position').substr(0, $mountains.css('background-position').search(' ')));

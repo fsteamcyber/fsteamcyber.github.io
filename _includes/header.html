@@ -2,15 +2,10 @@
 {% if page.url == "/" %}
 <landing-navbar style="background-color: #00072f" class="navbar-slider">
   <div style="background-color: #00072f" class="ui container borderless inverted menu">
-<!-- If on any other page -->
-{% else %}
-<landing-navbar class="navbar-slider">
-  <div class="ui container borderless inverted menu">
-{% endif %}
-<!-- Both variants of header -->
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
-    <a class="ui centered header item" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <!-- To get name for home button: {{ site.title | escape }} -->
+    <a class="ui centered header item" href="{{ "/" | relative_url }}"><i class="home icon"></i></a>
     <div class="right aligned item">
       {% for item in site.data.menu %}
       {% if item.title == "Portfolio" %}
@@ -22,3 +17,22 @@
     </div>
   </div>
 </landing-navbar>
+<!-- If on any other page -->
+{% else %}
+<landing-navbar class="navbar-slider">
+  <div class="ui container borderless inverted menu">
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}
+    <a class="ui centered header item" href="{{ "/" | relative_url }}"><i class="home icon"></i>{{ site.title | escape }}</a>
+    <div class="right aligned item">
+      {% for item in site.data.menu %}
+      {% if item.title == "Portfolio" %}
+      <a class="aligned item" href="https://nathancy.github.io/" target="_blank">Portfolio</a>
+      {% else %}
+      <a class="aligned item" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</landing-navbar>
+{% endif %}
