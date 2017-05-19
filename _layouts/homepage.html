@@ -6,19 +6,56 @@
   <title>Nathan Lam</title>
   <link rel="stylesheet" href="../css/homepage/homepage.css">
 </head>
-
 <body>
 {% include header.html %}
-<div id="container">
+<div id="container-background">
   <canvas id="pixie"></canvas>
+  <div class="wrapper">
+    <div style="margin-top: 400px;" class="ui middle aligned centered grid text container">
+      <h1 class="ui main header homepage">Nathan Lam</h1>
+    </div>
+    <div style="margin-top: 450px;" class="ui middle aligned centered grid text container">
+      <p id="second-header">Computer Engineer&nbsp;•&nbsp; Honolulu, Hawaii</p>
+    </div>
+    <br>
+    <div id="navigation-links" style="margin-top: 505px;" class="ui middle aligned centered grid text container">
+      <a style="margin-right:7.5px" href="https://github.com/nathancy" target="_blank"><i class="circular github icon homepage"></i></a>
+      <a style="margin-right:7.5px; margin-left: 7.5px" href="http://linkedin.com/in/nathan-lam-14b936112" target="_blank"><i class="circular linkedin icon homepage"></i></a>
+      <a style="margin-right:7.5px; margin-left: 7.5px"href="https://nathancy.github.io/" target="_blank"><i class="circular suitcase icon homepage"></i></a>
+      <a style="margin-left: 7.5px"href="mailto:nathancy@hawaii.edu" target="_blank"><i class="circular mail outline icon homepage"></i></a>
+    </div>
+  </div>
   <div id="mountains"></div>
   <div id="grass"></div>
 </div>
-{% include footer.html %}
 </body>
-
+<script>
+  $('.ui.main.header.homepage')
+      .transition('hide')
+      .transition('fade down', '3000ms')
+  ;
+  $('#second-header')
+      .transition('hide')
+      .transition('fade down', '3000ms')
+  ;
+  $('.circular.github.icon')
+      .transition('hide')
+      .transition('fade up', '2000ms')
+  ;
+  $('.circular.linkedin.icon')
+      .transition('hide')
+      .transition('fade up', '2000ms')
+  ;
+  $('.circular.suitcase.icon')
+      .transition('hide')
+      .transition('fade up', '2000ms')
+  ;
+  $('.circular.mail.outline.icon')
+      .transition('hide')
+      .transition('fade up', '2000ms')
+  ;
+</script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 <script type="text/javascript" src="../js/homepage/homepage.js">
-
 </script>
 </html>

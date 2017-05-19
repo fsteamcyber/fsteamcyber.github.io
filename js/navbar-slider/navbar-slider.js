@@ -43,7 +43,3 @@ $.getScript('/js/navbar-slider/jquery.min.js', function()
     lastScrollTop = st;
   }
 });
-
-
-
-

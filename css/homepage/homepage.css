@@ -2,10 +2,24 @@ html, body, div, span, canvas {
   margin:0;
   padding:0;
 }
-#container {
+
+/* To put header over canvas */
+#container-background {
   overflow:hidden;
   position:relative;
 }
+
+#container-background canvas, .ui.middle.aligned.centered.grid.text.container {
+  position: absolute;
+}
+
+#container-background canvas, #navigation-links {
+  position: absolute;
+}
+#navigation-links a {
+  padding: 0 0 0 0;
+}
+
 #pixie {
   z-index:0;
   background:-o-linear-gradient(top, #040429, #257eb7);

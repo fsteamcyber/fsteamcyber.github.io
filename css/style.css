@@ -52,6 +52,7 @@ p {
 
 .ui.container.borderless.inverted.menu .right.aligned.item .aligned.item {
   color: #fff;
+  font-size:16px;
 }
 .ui.container.borderless.inverted.menu .right.aligned.item .aligned.item:hover {
   color:#18bc9c;
@@ -73,7 +74,7 @@ landing-navbar {
 }
 .ui.container.borderless.inverted.menu .ui.centered.header.item {
   font-weight:normal;
-  font-size:22px;
+  font-size:20.5px;
   color: #fff;
 }
 
@@ -82,149 +83,36 @@ landing-navbar {
   color:#18bc9c;
 }
 
-
-
-  /* ========================================== */
-/* LANDING PAGE content */
-/* ========================================== */
-.home-page-main-background {
-  background: url('/images/home-page-background1.jpg') no-repeat center center fixed;
-  background-size: cover;
-  height: 750px;
-}
-
-.home-page-main-background .ui.main.header {
-  font-size: 55px;
-  margin-top: 275px;
-  color: #fff;
-  font-weight: normal;
-}
-
-.home-page-main-background .ui.secondary.header {
-  font-size: 25px;
-  color: #fff;
-  font-weight: normal;
-}
-
-.home-page-div1-background {
-  background-color: #282C35;
-  height: 475px;
-  color: #18bc9c;
-}
-
-.home-page-div1-background .ui.main.header {
-  margin-top: 50px;
-  font-size:35px;
-  color: #18bc9c;
-  font-weight: normal;
-}
-.home-page-div1-background .ui.secondary.header {
-  font-size: 20px;
-  color: #18bc9c;
-  font-weight: normal;
-}
-
-.home-page-div2-background {
-  background-color: #F3F3F3;
-  height:410px;
-}
-
-.home-page-div2-background .ui.header {
-  font-size:25px;
-  color:#33373D;
-  font-weight: normal;
-}
-.home-page-div2-background .ui.header .sub.header {
-  font-size:18px;
-  font-weight: normal;
-}
-
-.home-page-div3-background {
-  background-color: #282C35;
-  height:900px;
-}
-
-.home-page-div3-background .ui.header {
-  font-size:25px;
-  color:#18bc9c;
-  font-weight: normal;
-}
-.home-page-div3-background .ui.header .sub.header {
-  font-size:18px;
-  color: #F3F3F3;
-  font-weight: normal;
-}
-
-/* WHITE BACKGROUND #F3F3F3
-   OVERLAY BACKGROUDN WHITE #ffffff
- */
-
-.home-page-div-divider {
-  background: url('/images/background-beach-landing.jpg') no-repeat center center fixed;
-  height:200px;
-}
-
-.home-page-div-divider .ui.middle.aligned.centered.grid.container .ui.main.header {
-  color: #f3f3f3;
-  font-weight: normal;
-}
-
-.home-page-div-divider .ui.middle.aligned.centered.grid.text.container .ui.huge.button.login {
-  background-color: #00b5ad;
+/* Headers for center of home page */
+#container-background .ui.middle.aligned.centered.grid.text.container .ui.main.header.homepage {
+  font-size: 4.35em;
+  font-weight: 900;
+  letter-spacing: -.035em;
+  line-height: 1em;
   color: #fff;
 }
-.home-page-div-divider .ui.middle.aligned.centered.grid.text.container .ui.huge.button.logout {
-  background-color: #00b5ad;
+#container-background .ui.middle.aligned.centered.grid.text.container p {
+  font-size: 1.25em;
+  margin: .75em 0 .25em 0;
   color: #fff;
 }
 
-
-.home-page-div-divider .ui.main.header {
-  margin-top:75px;
-  color: #F3F3F3;
-  font-size:35px;
-  font-weight: normal;
+#container-background .ui.middle.aligned.centered.grid.text.container .circular.icon{
+  font-size: 2.5em;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  color: #4183c4;
 }
 
-/* ========================================== */
-/* Footer */
-/* ========================================== */
-.page-footer {
-  color: #fff;
-  background-color: #282C35;
-  padding-bottom: 15px;
-  font-weight: normal;
+#container-background .ui.middle.aligned.centered.grid.text.container .circular.icon:hover {
+  transform: scale(1.2);
 }
 
-/* ========================================== */
-/* Not Found Page */
-/* ========================================== */
-
-.not-found-page-background {
-  background: url('/images/404.jpg') no-repeat center center fixed;
-  background-size: cover;
-  height: 1000px;
-}
-
-.not-found-page-background .ui.main.header {
-  margin-top: 150px;
-  font-size:35px;
-  color: #18bc9c;
-  padding-bottom:20px;
-  font-weight: normal;
-}
-
-.ui.middle.aligned.centered.grid.text.container.teleport button {
-  background-color: #00b5ad;
-  color:#fff;
-}
-
-/* ========================================== */
-/* Spinner Page */
-/* ========================================== */
-
-.ui.middle.aligned.centered.grid.text.container.spinner {
-  margin-top: 150px;
+i.circular.icon {
+  box-shadow: 0 0 0 0.1em rgba(0,0,0,.25) inset;
 }
 
 /* ========================================== */
