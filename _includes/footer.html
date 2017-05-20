@@ -1,46 +1,48 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
+<footer>
+  <div class="footer-background-layout-1">
+    <div class="ui centered grid text container footer">
+      <h1 style="margin-top: 35px" class="ui main header footer">Contact</h1>
+      <div style="margin-top: 5px" class="ui vertically divided grid container">
+        <div class="three column row footer">
+          <div class="column">
+            <h3 class="ui secondary header">
+              <i class="map icon"></i>
+              <div class="content">
+                Address redacted
+              </div>
+            </h3>
+          </div>
+          <div class="column">
+            <h3 class="ui secondary header">
+              <i class="mail icon"></i>
+              <div class="content">
+                nathancy@hawaii.edu
+              </div>
+            </h3>
+          </div>
+          <div class="column">
+            <h3 class="ui secondary header">
+              <i class="call icon"></i>
+              <div class="content">
+                Phone number redacted
+              </div>
+            </h3>
+          </div>
+        </div>
       </div>
     </div>
-
   </div>
-
+  <div class="footer-background-layout-2">
+    <div id="footer-navigation-links" class="ui middle aligned centered grid text container">
+      <div style="margin-top:125px">
+        <a style="margin-right:7.5px" href="https://github.com/nathancy" target="_blank"><i
+            class="circular github icon homepage"></i></a>
+        <a style="margin-right:7.5px; margin-left: 7.5px" href="http://linkedin.com/in/nathan-lam-14b936112"
+           target="_blank"><i class="circular linkedin icon homepage"></i></a>
+        <a style="margin-right:7.5px; margin-left: 7.5px" href="https://nathancy.github.io/" target="_blank"><i
+            class="circular suitcase icon homepage"></i></a>
+        <a style="margin-left: 7.5px" href="mailto:nathancy@hawaii.edu" target="_blank"><i
+            class="circular mail outline icon homepage"></i></a></div>
+    </div>
+  </div>
 </footer>

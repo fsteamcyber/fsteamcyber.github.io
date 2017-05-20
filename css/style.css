@@ -116,6 +116,68 @@ i.circular.icon {
 }
 
 /* ========================================== */
+/* Footer
+/* ========================================== */
+
+.ui.main.header.footer {
+  color: #F3F3F3;
+  font-weight:normal;
+}
+
+.three.column.row.footer h3 {
+  color: #F3F3F3;
+  font-weight:normal;
+}
+
+.three.column.row.footer .content {
+  font-size: 14.5px;
+}
+
+#footer-navigation-links a {
+  padding: 0 0 0 0;
+  font-size: 1.5em;
+}
+
+.footer-background-layout-1 {
+  background: url('/images/footer3.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 200px;
+  position:relative;
+}
+
+.footer-background-layout-1:after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background: rgba(0,0,0,.5);
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.footer-background-layout-1:hover:after {
+  opacity: 1;
+}
+
+.footer-background-layout-1 .ui.centered.grid.text.container.footer {
+  color: #F3F3F3;
+  z-index: 1;
+  position: relative;
+}
+
+.footer-background-layout-2 {
+  background-color: #292929;
+  height: 200px;
+  font-size:20px;
+}
+
+
+/* ========================================== */
 /* Google Fonts */
 /* ========================================== */
 
