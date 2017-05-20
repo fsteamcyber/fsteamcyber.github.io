@@ -33,7 +33,17 @@ kramdown:
 theme: minima 
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
 
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Jekyll-seo-tag config
+
+logo: /images/nathan-logo.png
+
+social:
+  name: Nathan Lam
+  links:
+    - https://github.com/nathancy
