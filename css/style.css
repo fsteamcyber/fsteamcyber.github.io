@@ -84,6 +84,10 @@ landing-navbar {
 }
 
 /* Headers for center of home page */
+#container-background {
+  margin-top: -4px;
+}
+
 #container-background .ui.middle.aligned.centered.grid.text.container .ui.main.header.homepage {
   font-size: 4.35em;
   font-weight: 900;
