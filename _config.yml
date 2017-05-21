@@ -34,6 +34,8 @@ theme: minima
 gems:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-avatar
 
 exclude:
   - Gemfile
@@ -41,9 +43,9 @@ exclude:
 
 # Jekyll-seo-tag config
 
-logo: /images/nathan-logo.png
-
 social:
   name: Nathan Lam
   links:
     - https://github.com/nathancy
+
+logo: /images/nathan-logo.png

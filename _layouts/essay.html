@@ -1,17 +1,8 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-  {% include head.html %}
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta charset="UTF-8">
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../css/back-to-top/back-to-top.css">
-  {% if jekyll.environment == 'production' and site.google_analytics %}
-  {% include google-analytics.html %}
-  {% endif %}
-  {% seo %}
-</head>
+<html lang="{{ page.lang | default: site.lang | default: en }}">
+
+{% include head.html %}
+
 <body>
 {% include header.html %}
 <div style="margin-top: 80px; padding-bottom:35px" class="ui text container">
