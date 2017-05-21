@@ -3,7 +3,6 @@ layout: essay
 title: About Me
 permalink: /about/
 ---
-
 I was always an engineer at heart and had been lucky enough to drop into the doorstep of the thing that I had been trying to find ever since I was young. From an early age, I was definitely interested in building things. I’ve always been fascinated by intricate parts to blinking lights on electronics and now, I aspire to bring these imaginations into reality. It all began when my parents bought a 1,000 piece Lego set. I would always build figures or robots that would battle each other. This interest never left me, only growing more profound and passionate with every new discovery I made. Building, anything, had this lure to them that further fueled my curiosity. 
 
 I was then exposed to the computer. This baffling machine was unlike anything I’ve ever seen before. When my dad’s 1999 Dell computer broke down, I had the greatest joy of dissembling the computer to inspect each intricate part. Later on when I got old enough and was given my own computer, this curiosity continued to take its course. Although I couldn't really create anything yet, I sure could mess around with the operating system and install generous amounts of software to satisfy my curiosity. From my childhood experiences and my introduction to electronics, my dream is to be a part of the computer world.

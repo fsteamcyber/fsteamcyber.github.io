@@ -1,7 +1,7 @@
 <footer>
   <div class="footer-background-layout-1">
     <div class="ui centered grid text container footer">
-      <h1 style="margin-top: 35px" class="ui main header footer">Contact</h1>
+      <h1 style="margin-top: 45px" class="ui main header footer">Contact</h1>
       <div style="margin-top: 5px" class="ui vertically divided grid container">
         <div class="three column row footer">
           <div class="column">
@@ -16,7 +16,7 @@
             <h3 class="ui secondary header">
               <i class="mail icon"></i>
               <div class="content">
-                nathancy@hawaii.edu
+                {{site.email}}
               </div>
             </h3>
           </div>
@@ -34,7 +34,7 @@
   </div>
   <div class="footer-background-layout-2">
     <div id="footer-navigation-links" class="ui middle aligned centered grid text container">
-      <div style="margin-top:125px">
+      <div style="margin-top:35px">
         <a style="margin-right:7.5px" href="https://github.com/nathancy" target="_blank"><i
             class="circular github icon homepage"></i></a>
         <a style="margin-right:7.5px; margin-left: 7.5px" href="http://linkedin.com/in/nathan-lam-14b936112"
@@ -42,7 +42,11 @@
         <a style="margin-right:7.5px; margin-left: 7.5px" href="https://nathancy.github.io/" target="_blank"><i
             class="circular suitcase icon homepage"></i></a>
         <a style="margin-left: 7.5px" href="mailto:nathancy@hawaii.edu" target="_blank"><i
-            class="circular mail outline icon homepage"></i></a></div>
+            class="circular mail outline icon homepage"></i></a>
+      </div>
+      <div id="copyright-footer" class="ui middle aligned centered grid text container">
+        <h4>© {{site.time | date: "%Y"}} Nathan Lam</h4>
+      </div>
     </div>
   </div>
 </footer>

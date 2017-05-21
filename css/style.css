@@ -112,7 +112,7 @@ landing-navbar {
 }
 
 i.circular.icon {
-  box-shadow: 0 0 0 0.1em rgba(0,0,0,.25) inset;
+  box-shadow: 0 0 0 0.1em rgba(0,0,0,.3) inset;
 }
 
 /* ========================================== */
@@ -139,7 +139,7 @@ i.circular.icon {
 }
 
 .footer-background-layout-1 {
-  background: url('/images/footer3.jpg') no-repeat center center fixed;
+  background: url('/images/footer/footer3.jpg') no-repeat center center fixed;
   background-size: cover;
   height: 200px;
   position:relative;
@@ -154,6 +154,8 @@ i.circular.icon {
   background: rgba(0,0,0,.5);
   -moz-transition: all 1s;
   -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  -ms-transition: all 1s;
   transition: all 1s;
   top: 0;
   left: 0;
@@ -172,10 +174,24 @@ i.circular.icon {
 
 .footer-background-layout-2 {
   background-color: #292929;
-  height: 200px;
+  height: 150px;
   font-size:20px;
 }
 
+/*
+.ui.centered.image.uparrow {
+  width: 60px;
+  height: auto;
+  font-size: .85714286rem;
+  padding-top:35px;
+}
+*/
+
+#copyright-footer {
+  margin-top: 25px;
+  font-weight: normal;
+  color: #999;
+}
 
 /* ========================================== */
 /* Google Fonts */
@@ -257,6 +273,7 @@ i.circular.icon {
  */
 /* ========================================== */
 
+/*
 .img {
   position: relative;
   float: left;
@@ -266,3 +283,4 @@ i.circular.icon {
   background-repeat:   no-repeat;
   background-size:     cover;
 }
+*/
