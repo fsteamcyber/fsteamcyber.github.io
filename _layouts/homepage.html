@@ -3,7 +3,8 @@
 <head>
   {% include head.html %}
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="description"
+        content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <link rel="stylesheet" href="../css/homepage/homepage.css">
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
@@ -14,19 +15,21 @@
 {% include header.html %}
 <div id="container-background">
   <canvas id="pixie"></canvas>
+
   <div class="wrapper">
-    <div style="margin-top: 400px;" class="ui middle aligned centered grid text container">
+    <div class="ui middle aligned centered grid text container home-page-header">
       <h1 class="ui main header homepage">{{site.title}}</h1>
-    </div>
-    <div style="margin-top: 450px;" class="ui middle aligned centered grid text container">
-      <p id="second-header">Computer Engineer&nbsp;•&nbsp; Honolulu, Hawaii</p>
-    </div>
-    <br>
-    <div id="navigation-links" style="margin-top: 505px;" class="ui middle aligned centered grid text container">
-      <a style="margin-right:7.5px" href="https://github.com/nathancy" target="_blank"><i class="circular github icon homepage"></i></a>
-      <a style="margin-right:7.5px; margin-left: 7.5px" href="http://linkedin.com/in/nathan-lam-14b936112" target="_blank"><i class="circular linkedin icon homepage"></i></a>
-      <a style="margin-right:7.5px; margin-left: 7.5px"href="https://nathancy.github.io/" target="_blank"><i class="circular suitcase icon homepage"></i></a>
-      <a style="margin-left: 7.5px"href="mailto:nathancy@hawaii.edu" target="_blank"><i class="circular mail outline icon homepage"></i></a>
+      <p style="margin-top:0px;" id="second-header">Computer Engineer&nbsp;•&nbsp; Honolulu, Hawaii</p>
+      <div style="margin-top: 20px" id="navigation-links">
+        <a style="margin-right:7.5px" href="https://github.com/nathancy" target="_blank"><i
+            class="circular github icon homepage"></i></a>
+        <a style="margin-right:7.5px; margin-left: 7.5px" href="http://linkedin.com/in/nathan-lam-14b936112"
+           target="_blank"><i class="circular linkedin icon homepage"></i></a>
+        <a style="margin-right:7.5px; margin-left: 7.5px" href="https://nathancy.github.io/" target="_blank"><i
+            class="circular suitcase icon homepage"></i></a>
+        <a style="margin-left: 7.5px" href="mailto:nathancy@hawaii.edu" target="_blank"><i
+            class="circular mail outline icon homepage"></i></a>
+      </div>
     </div>
   </div>
   <div id="mountains"></div>
@@ -36,11 +39,11 @@
 <script>
   $('.ui.main.header.homepage')
       .transition('hide')
-      .transition('fade down', '3000ms')
+      .transition('fade up', '3000ms')
   ;
   $('#second-header')
       .transition('hide')
-      .transition('fade down', '3000ms')
+      .transition('fade up', '3000ms')
   ;
   $('.circular.github.icon')
       .transition('hide')

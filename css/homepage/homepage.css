@@ -3,19 +3,6 @@ html, body, div, span, canvas {
   padding:0;
 }
 
-/* To put header over canvas */
-#container-background {
-  overflow:hidden;
-  position:relative;
-}
-
-#container-background canvas, .ui.middle.aligned.centered.grid.text.container {
-  position: absolute;
-}
-
-#container-background canvas, #navigation-links {
-  position: absolute;
-}
 #navigation-links a {
   padding: 0 0 0 0;
 }
@@ -31,11 +18,23 @@ html, body, div, span, canvas {
   -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#040429', EndColorStr='#257eb7')";
   filter: contrast(105%);
 }
+
 #mountains, #grass {
   width:100%;
   position:absolute;
   bottom:0;
 }
+
+.ui.middle.aligned.centered.grid.text.container.home-page-header {
+  width:100%;
+  position:absolute;
+  top:40%;
+}
+
+#container-background .wrapper .ui.middle.aligned.centered.grid.text.container.home-page-header #second-header {
+  color: #bfbfbf;
+}
+
 #mountains {
   height:156px;
   z-index:1;
