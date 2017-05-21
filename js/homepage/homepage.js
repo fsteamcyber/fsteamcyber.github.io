@@ -95,7 +95,7 @@ $(document).ready(function(){
   var $mountains = $('#mountains');
   var $grass = $('#grass');
   var $container = $('#container-background');
-  $container.mousedown(function(ev){
+  $container.mouseenter(function(ev){
     var ox = ev.clientX;
     var om = parseInt($mountains.css('background-position').substr(0, $mountains.css('background-position').search(' ')));
     var og = parseInt($grass.css('background-position').substr(0, $grass.css('background-position').search(' ')));
