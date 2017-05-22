@@ -1,7 +1,7 @@
 ---
 layout: essay
-type: essay
 title: Links
+description: "Interesting links, thoughts, and tips."
 permalink: /links/
 ---
 
