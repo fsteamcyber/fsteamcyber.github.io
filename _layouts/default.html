@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: en }}">
-
   {% include head.html %}
-
   <body>
-
     {% include header.html %}
-
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
+        <!-- Controls back-to-top, encase content -->
+        <div style="margin-top:17.5px" class="cd-container">
         {{ content }}
+        </div>
+        <!-- End -->
       </div>
+      <!-- Controls back-to-top -->
+      <a href="#0" class="cd-top">Top</a>
+      <!-- End -->
     </main>
-
     {% include footer.html %}
-
+    <script src="../css/back-to-top/main.js"></script> <!-- Gem jQuery -->
   </body>
-
 </html>
