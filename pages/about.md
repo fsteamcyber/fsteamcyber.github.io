@@ -1,6 +1,7 @@
 ---
 layout: essay
 title: About Me
+description: "Computer Engineering student with a passion for clean aesthetic interfaces and embedded systems."
 permalink: /about/
 ---
 I was always an engineer at heart and had been lucky enough to drop into the doorstep of the thing that I had been trying to find ever since I was young. From an early age, I was definitely interested in building things. I’ve always been fascinated by intricate parts to blinking lights on electronics and now, I aspire to bring these imaginations into reality. It all began when my parents bought a 1,000 piece Lego set. I would always build figures or robots that would battle each other. This interest never left me, only growing more profound and passionate with every new discovery I made. Building, anything, had this lure to them that further fueled my curiosity. 
