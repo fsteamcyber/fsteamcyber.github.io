@@ -19,3 +19,9 @@
     <script src="../css/back-to-top/main.js"></script> <!-- Gem jQuery -->
   </body>
 </html>
+<!-- Ensure page refreshes to top of page -->
+<script>
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }
+</script>
