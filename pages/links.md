@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: about
 title: Links
 description: "Interesting links, thoughts, and tips."
 permalink: /links/

@@ -7,14 +7,22 @@
 {% include header.html %}
 
 <div style="padding-top: 65px" class="ui container ">
+
   <div class="ui stackable centered four cards">
-    {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
-    {% for page in project_pages %}
+    {% assign blog_pages = site.pages | where: "type", "blog" | sort: "date" | reverse %}
+    {% for page in blog_pages %}
     {% unless page.draft %}
-    {% include project-card.html page=page %}
+    {% include blog-card-2.html page=page %}
     {% endunless %}
     {% endfor %}
   </div>
 </div>
+
 </body>
 </html>
+<!-- Ensure page refreshes to top of page -->
+<script>
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }
+</script>

@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: about
 title: About Me
 description: "Computer Engineering student with a passion for clean aesthetic interfaces and embedded systems."
 permalink: /about/
