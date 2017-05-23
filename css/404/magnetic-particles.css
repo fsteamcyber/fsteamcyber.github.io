@@ -1,0 +1,33 @@
+body {
+  background:-o-linear-gradient(#011f23);
+  background:-ms-linear-gradient(#011f23);
+  background:-moz-linear-gradient(#011f23);
+  background:-webkit-linear-gradient(#011f23);
+  margin-top:0px;
+}
+
+canvas {
+  position: absolute;
+}
+
+.ui.left.aligned.text.container.missingpage {
+  width:100%;
+  position:absolute;
+  top:15%;
+}
+
+.wrapper .ui.left.aligned.text.container.missingpage .header-missingpage {
+  color: #fff;
+}
+
+.wrapper .ui.left.aligned.text.container.missingpage ul {
+  color: #2d5b89;
+}
+
+.wrapper .ui.left.aligned.text.container.missingpage li a {
+  color: #4183C4;
+}
+
+.wrapper .ui.left.aligned.text.container.missingpage li a:hover{
+  color: #c6d9ed;
+}
