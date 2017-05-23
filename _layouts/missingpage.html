@@ -1,24 +1,39 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<html lang="{{ page.lang | default: site.lang | default: en }}">
 
-<div style="padding-top: 20px" class="ui container ">
-  <h3>I'm sorry, that URL could not be found. Perhaps you were looking for one of the following:</h3>
+{% include head.html %}
 
-  <h3>Projects</h3>
-  <ul>
-    {% assign project_pages = site.pages | where: "type", "project" | sort: "title" %}
-    {% for page in project_pages %}
-    <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-    {% endfor %}
-  </ul>
+<body>
 
-  <h3>Blog</h3>
-  <ul>
-    {% assign blog_pages = site.pages | where: "type", "blog" | sort: "date" | reverse %}
-    {% for page in blog_pages %}
+{% include header.html %}
+
+<canvas id='c'></canvas>
+<div class="wrapper">
+  <div class="ui left aligned text container missingpage">
+    <h3 class="header-missingpage">I'm sorry, that URL could not be found. Perhaps you were looking for one of the following:</h3>
+    <h3 class="header-missingpage">Projects</h3>
+    <ul>
+      {% assign project_pages = site.pages | where: "type", "project" | sort: "title" %}
+      {% for page in project_pages %}
+      <li><a class="missingpage-link" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <h3 class="header-missingpage">Blog</h3>
+    <ul>
+      {% assign blog_pages = site.pages | where: "type", "blog" | sort: "date" | reverse %}
+      {% for page in blog_pages %}
       <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-    {% endfor %}
-  </ul>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
+
+
+</body>
+<!-- magnetic particles canvas -->
+<link rel="stylesheet" href="../css/404/magnetic-particles.css">
+<script type="text/javascript" src="../js/404/magnetic-particles.js"></script>
+</html>
+
 
