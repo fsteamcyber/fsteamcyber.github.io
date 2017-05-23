@@ -5,19 +5,20 @@
 
 <body>
 {% include header.html %}
-
-<div style="padding-top: 65px" class="ui container ">
-
-  <div class="ui stackable centered four cards">
-    {% assign blog_pages = site.pages | where: "type", "blog" | sort: "date" | reverse %}
-    {% for page in blog_pages %}
-    {% unless page.draft %}
-    {% include blog-card-2.html page=page %}
-    {% endunless %}
-    {% endfor %}
+<div class="cd-container">
+  <div style="padding-top: 65px" class="ui container ">
+    <div class="ui stackable centered four cards">
+      {% assign blog_pages = site.pages | where: "type", "blog" | sort: "date" | reverse %}
+      {% for page in blog_pages %}
+      {% unless page.draft %}
+      {% include blog-card-2.html page=page %}
+      {% endunless %}
+      {% endfor %}
+    </div>
   </div>
 </div>
-
+<a href="#0" class="cd-top">Top</a>
+<script src="../js/back-to-top/main.js"></script> <!-- Gem jQuery -->
 </body>
 </html>
 <!-- Ensure page refreshes to top of page -->

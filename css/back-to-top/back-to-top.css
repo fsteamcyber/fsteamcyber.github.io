@@ -5,7 +5,6 @@ Modules - reusable parts of our design
 
 -------------------------------- */
 .cd-container {
-  max-width: 768px;
   margin: 2em auto;
 }
 .cd-container::after {
@@ -54,10 +53,12 @@ Main components
   /* the button becomes visible */
   visibility: visible;
   opacity: 1;
+  z-index: 5;
 }
 .cd-top.cd-fade-out {
   /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
   opacity: .5;
+  z-index: 5;
 }
 .no-touch .cd-top:hover {
   background-color: #e86256;
