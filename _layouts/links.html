@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: en }}">
+
+{% include head.html %}
+
+<body>
+{% include header.html %}
+<div style="margin-top: 80px; padding-bottom:35px" class="ui text container">
+
+  <h1>{{ page.title }}</h1>
+  <hr>
+  <!-- Controls back-to-top, encase content -->
+  <div style="margin-top:17.5px" class="cd-container">
+    {{ content }}
+  </div>
+  <!-- End -->
+</div>
+<!-- Controls back-to-top -->
+<a href="#0" class="cd-top">Top</a>
+<!-- End -->
+<script src="../js/back-to-top/main.js"></script> <!-- Gem jQuery -->
+<!-- Ensure page refreshes to top of page -->
+<script>
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }
+</script>
+</body>
+</html>
