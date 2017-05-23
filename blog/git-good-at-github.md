@@ -1,6 +1,6 @@
 ---
-layout: essay
-type: essay
+layout: blog
+type: blog
 title: Git Good At GitHub
 date: 2016-01-28
 labels:
@@ -8,7 +8,7 @@ labels:
   - Learning
   - Version Control
 ---
-<img class="ui medium right floated rounded image" src="../images/github.jpg">
+<img class="ui small right floated rounded image" src="../images/blog/git-good-at-github.jpg">
 
 For software developers, version control systems and configuration management tools such as Git and GitHub are essential assets at all levels of software development. By having a secure repository to store code with the assurance of an incorruptible “master” version, this configuration management tool is indeed a blessing. By providing access control, repository history, and most importantly, collaboration features such as bug tracking, feature requests, and task management tools, GitHub is a crucial tool for software developers. Thus whether working in a large team or working on small personal projects, being able to keep track of changes is critical in creating software systems.
 

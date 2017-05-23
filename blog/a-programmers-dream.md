@@ -1,6 +1,6 @@
 ---
-layout: essay
-type: essay
+layout: blog
+type: blog
 title: A Programmer’s Dream
 date: 2016-01-16
 labels:
@@ -8,7 +8,7 @@ labels:
   - Learning
   - Goals
 ---
-<img class="ui medium right floated rounded image" src="../images/writers-block-Peanuts.jpg">
+<img class="ui medium right floated rounded image" src="../images/blog/a-programmers-dream.jpg">
 
 In a sense, programmer’s block is similar to writer’s block where “A writer may run out of inspiration, or be distracted by other events”. In contrast to writer’s block, however, programmer’s block occurs when a developer or engineer has too many ideas and is distracted by attempting to design and implement all of the ideas into his/her design. The ability to create and manipulate one’s limitless imagination enables developers and engineers in this intriguing field to bring fantasy to life. Nowadays, developers have unrestricted access to more tools, methodologies, and techniques than in the past, as the open source community is a perfect example of this endless span of information. 
 

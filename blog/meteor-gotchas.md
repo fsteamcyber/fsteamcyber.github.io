@@ -1,6 +1,6 @@
 ---
-layout: essay
-type: essay
+layout: blog
+type: blog
 title: “Meteor Gotchas”
 date: 2017-03-09
 labels:

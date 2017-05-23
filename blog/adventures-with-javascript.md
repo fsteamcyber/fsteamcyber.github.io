@@ -1,6 +1,6 @@
 ---
-layout: essay
-type: essay
+layout: blog
+type: blog
 title: Adventures with JavaScript
 date: 2016-01-17
 labels:
@@ -8,7 +8,7 @@ labels:
   - Learning
   - JavaScript
 ---
-<img class="ui medium right floated rounded image" src="../images/javascript-essay.png">
+<img class="ui small right floated rounded image" src="../images/blog/adventures-with-javascript.png">
 
 In order to dive into the world of website design and web development, I realized I needed to pick up JavaScript. Although at the time, I had no experience with the JavaScript programming language. However, I had worked with various other languages such as C, C++, Python, and Java which have provided a solid foundation of general coding syntax. After completing the JavaScript tutorials on FreeCodeCamp, I became comfortable working with this interesting language. 
 

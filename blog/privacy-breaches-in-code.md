@@ -1,13 +1,13 @@
 ---
-layout: essay
-type: essay
+layout: blog
+type: blog
 title: Privacy Breaches In Code
 date: 2017-04-28
 labels:
   - Software Engineering
   - Privacy
 ---
-<img class="ui small right floated rounded image" src="../images/privacy.png">
+<img class="ui small right floated rounded image" src="../images/blog/privacy-breaches-in-code.png">
 
 Engineering ethics is the set of rules and guidelines that engineers adhere to as a moral obligation to their profession and to the world. When ethics are not followed, disaster often occurs which not only includes large monetary costs and environmental repercussions, but may also result in the loss of human life. Due to the constantly changing nature of computer technology, it is difficult to assign a set of specific moral codes. Software engineering creates a set of ethical problems which include the theft of software involving the rights to products and the issue whether information on individuals stored in a computer constitutes an intolerable invasion of privacy. 
 

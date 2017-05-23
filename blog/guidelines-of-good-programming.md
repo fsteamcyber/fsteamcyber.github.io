@@ -1,13 +1,13 @@
 ---
-layout: essay
-type: essay
+layout: blog
+type: blog
 title: Guidelines of Good Programming  
 date: 2016-02-06
 labels:
   - ESLint 
   - Coding Standards 
 ---
-<img class="ui medium right floated rounded image" src="../images/ESLint.png">
+<img class="ui small right floated rounded image" src="../images/blog/guidelines-of-good-programming.png">
 
 Although placement of white spaces and curly braces may seem insignificant, proper code formatting has helped me immensely by making my code more readable and organized. In addition, by having well-formatted code, it has had a significant impact on productivity as various integrated development environments (IDE) such as IntelliJ with ESLint has been a great tool for developing uniform code since it enforces coding standards. By having a development environment that functions analogously to Microsoft Word’s spell-checker feature, ESLint has definitely forced me to address improper coding standards involving indentations, white spaces, and brackets. 
 

@@ -1,13 +1,13 @@
 ---
-layout: essay
-type: essay
+layout: blog
+type: blog
 title: Magic Works With Frameworks
 date: 2016-02-23
 labels:
   - Software Engineering
   - Semantic UI
 ---
-<img class="ui small right floated rounded image" src="../images/semantic.png">
+<img class="ui small right floated rounded image" src="../images/blog/magic-works-with-frameworks.png">
 
 Although there is a learning curve associated with UI frameworks such as Bootstrap and Semantic UI, the initial time investment is worth it in the end. The gained ability to create professional, clean, and aesthetically pleasing webpages in significantly less time is definitely an upgrade compared to using raw HTML and CSS. Specifically, by utilizing Semantic UI, life becomes much easier as webpage alignment, layouts, and browser compatibility issues are taken care of through the framework. The ability to create visually appealing webpages without having to spend hours modifying HTML and CSS files allows one to create borders and menu bars with just a few lines of code.
 

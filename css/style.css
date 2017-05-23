@@ -1,10 +1,14 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   background-color: #FAFAFA;
   margin-top: 35px;
   padding: 0;
   overflow-x: hidden;
   min-width: 320px;
+}
+
+h1, h2, h3, h4, h5, h6, .ui.header {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -55,6 +59,7 @@ p {
 .ui.container.borderless.inverted.menu .right.aligned.item .aligned.item {
   color: #fff;
   font-size: 16px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 .ui.container.borderless.inverted.menu .right.aligned.item .aligned.item:hover {
@@ -70,7 +75,7 @@ landing-navbar {
   transition: top 0.2s ease-in-out;
   width: 100%;
   border: none;
-  z-index: 3;
+  z-index: 6;
 }
 
 .landing-navbar-up {
@@ -81,6 +86,7 @@ landing-navbar {
   font-weight: normal;
   font-size: 17px;
   color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 .ui.container.borderless.inverted.menu .ui.centered.header.item:hover {
@@ -208,12 +214,53 @@ i.circular.icon {
 }
 
 /* ========================================== */
+/* Blog Page */
+/* ========================================== */
+
+.ui.mini.tag.labels .ui.basic.label.blog-theme-3 {
+  font-size: .78285714rem;
+  background-color: #00b5ad;
+  color: #fff;
+  font-weight: 600;
+}
+
+.header.blog-theme-3 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, .85);
+}
+
+.header.blog-theme-3:hover {
+  color:#00b5ad;
+}
+
+.extra.content .ui.mini.labels .ui.basic.label.blog-theme-1 {
+  font-size: .78285714rem;
+  background-color: #00b5ad;
+  color: #fff;
+  font-weight: 600;
+}
+
+
+/* ========================================== */
 /* Project page */
 /* ========================================== */
 
+.ui.cards > .card > .image:not(.ui) > img {
+  background-color: #fff;
+}
 
-.ui.card>.image:not(.ui)>img, .ui.cards>.card>.image:not(.ui)>img {
-  background-color:#fff;
+.ui.cards>.card>.content>.header:not(.ui) {
+  font-family:'Open Sans','Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+.ui.cards>.card .meta {
+  margin-top: 1px;
+}
+.ui.mini.labels .label {
+  font-size: .6785714rem;
+  color:rgba(0,0,0,.775);
+}
+.ui.cards>.card>.content>.description {
+  color: rgba(0,0,0,.8);
 }
 
 
@@ -292,6 +339,10 @@ i.circular.icon {
   src: local('Tangerine'), url(https://fonts.gstatic.com/s/tangerine/v7/HGfsyCL5WASpHOFnouG-RFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
+
+/* Ubuntu */
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu') , url(http://fonts.gstatic.com/s/ubuntu/v9/ODszJI8YqNw8V2xPulzjO_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu') , url(http://fonts.gstatic.com/s/ubuntu/v9/iQ9VJx1UMASKNiGywyyCXvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');unicode-range:U +0400-045F , U +0490-0491 , U +04B0-04B1 , U +2116}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu') , url(http://fonts.gstatic.com/s/ubuntu/v9/WkvQmvwsfw_KKeau9SlQ2_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');unicode-range:U +1F00-1FFF}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu') , url(http://fonts.gstatic.com/s/ubuntu/v9/gYAtqXUikkQjyJA1SnpDLvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');unicode-range:U +0370-03FF}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu') , url(http://fonts.gstatic.com/s/ubuntu/v9/Wu5Iuha-XnKDBvqRwQzAG_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu') , url(http://fonts.gstatic.com/s/ubuntu/v9/sDGTilo5QRsfWu6Yc11AXg.woff2) format('woff2');unicode-range:U +0000-00FF , U +0131 , U +0152-0153 , U +02C6 , U +02DA , U +02DC , U +2000-206F , U +2074 , U +20AC , U +2212 , U +2215}
+
 
 /* ========================================== */
 /* Make any picture same width and height */

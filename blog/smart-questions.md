@@ -1,6 +1,6 @@
 ---
-layout: essay
-type: essay
+layout: blog
+type: blog
 title: Smart Questions
 date: 2016-01-22
 labels:
@@ -8,7 +8,7 @@ labels:
   - Learning
   - StackOverflow
 ---
-<img class="ui medium right floated rounded image" src="../images/smart-questions.jpg">
+<img class="ui medium right floated rounded image" src="../images/blog/smart-questions.jpg">
 
 Programming is never a secluded practice as there is always a link to the open source community, especially when we are stuck in a perplexed state. Luckily, we are not alone as others may have gone through the same problems and with so much information on the web, we often find ourselves asking questions in both our careers and everyday lives. Specifically in the software engineering field, there are limitless methods of implementation and steps where we may become puzzled. By asking smart and insightful questions, we can easily obtain the information we need by ensuring our questions are concise and meaningful.
 As software engineers, communication is one of the most essential skills to develop as interacting with others by asking “smart questions” ensures clarity to potential responders. Greater understanding leads to quality responses and discussion. We will examine positive and negative cases of asking questions on StackOverflow. 
