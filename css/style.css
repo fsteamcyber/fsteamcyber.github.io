@@ -79,19 +79,19 @@ ul {
 /* Header
 /* ========================================== */
 
-.ui.container.borderless.inverted.menu {
+.ui.fluid.borderless.inverted.container.menu {
   background-color: #2c3e50;
   height: 55px;
   color: #fff;
 }
 
-.ui.container.borderless.inverted.menu .right.aligned.item .aligned.item {
+.ui.fluid.borderless.inverted.container.menu .right.aligned.item .aligned.item {
   color: #fff;
   font-size: 16px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
-.ui.container.borderless.inverted.menu .right.aligned.item .aligned.item:hover {
+.ui.fluid.borderless.inverted.container.menu .right.aligned.item .aligned.item:hover {
   color: #18bc9c;
   background: none;
 }
@@ -111,14 +111,14 @@ landing-navbar {
   top: -55px;
 }
 
-.ui.container.borderless.inverted.menu .ui.centered.header.item {
+.ui.fluid.borderless.inverted.container.menu .ui.centered.header.item {
   font-weight: normal;
   font-size: 17px;
   color: #fff;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
-.ui.container.borderless.inverted.menu .ui.centered.header.item:hover {
+.ui.fluid.borderless.inverted.container.menu .ui.centered.header.item:hover {
   background: none;
   color: #18bc9c;
 }
