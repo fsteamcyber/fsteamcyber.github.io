@@ -173,12 +173,12 @@ i.circular.icon {
   font-weight: normal;
 }
 
-.three.column.row.footer h3 {
+.three.column.stackable.row.footer h3 {
   color: #F3F3F3;
   font-weight: normal;
 }
 
-.three.column.row.footer .content {
+.three.column.stackable.row.footer .content {
   font-size: 14.5px;
 }
 
@@ -190,7 +190,7 @@ i.circular.icon {
 .footer-background-layout-1 {
   background: url('/images/footer/footer3.jpg') no-repeat center center fixed;
   background-size: cover;
-  height: 200px;
+  height: auto;
   position: relative;
 }
 
@@ -223,7 +223,7 @@ i.circular.icon {
 
 .footer-background-layout-2 {
   background-color: #292929;
-  height: 150px;
+  height: auto;
   font-size: 20px;
 }
 
@@ -240,6 +240,7 @@ i.circular.icon {
   margin-top: 25px;
   font-weight: normal;
   color: #999;
+  padding-bottom: 25px;
 }
 
 /* ========================================== */
@@ -250,7 +251,6 @@ i.circular.icon {
   font-size: .78285714rem;
   background-color: #00b5ad;
   color: #fff;
-  font-weight: 600;
 }
 
 .header.blog-theme-3 {
