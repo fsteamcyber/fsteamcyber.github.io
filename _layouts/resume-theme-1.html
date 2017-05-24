@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="{{ page.lang | default: site.lang | default: en }}">
+
+{% include head.html %}
+
+<body>
+{% include header.html %}
+
+<div class="cd-container">
+  <div style="margin-top: 65px; " class="ui grid container">
+
+    <div class="sixteen wide column no-bottom">
+      <h2 class="ui center aligned header no-bottom">{{ site.data.bio.basics.name }}</h2>
+    </div>
+
+    <div class="eight wide left aligned column">
+      {% include resume-network-links.html %}
+    </div>
+
+    <div class="eight wide right aligned column">
+      {% include resume-address.html %}
+    </div>
+  </div>
+  <div style="margin-bottom: 5px" class="ui stackable grid container">
+    {% include resume-interests-1.html %}
+    {% include resume-skills-1.html %}
+    {% include resume-education-1.html %}
+    {% include resume-work-1.html %}
+    {% include resume-volunteer-1.html %}
+    {% include resume-publications-1.html %}
+    {% include resume-awards-1.html %}
+    {% include resume-references-1.html %}
+  </div>
+</div>
+
+<a href="#0" class="cd-top">Top</a>
+<script src="../js/back-to-top/main.js"></script> <!-- Gem jQuery -->
+</body>
+</html>
+<!-- Ensure page refreshes to top of page -->
+<script>
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }
+</script>
