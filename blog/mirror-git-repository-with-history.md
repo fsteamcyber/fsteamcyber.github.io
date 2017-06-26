@@ -2,7 +2,7 @@
 layout: blog
 type: blog
 title: Mirror Git Repository With History
-date: 2016-06-23
+date: 2017-06-23
 labels:
   - Software Engineering
   - Git

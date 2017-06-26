@@ -2,7 +2,7 @@
 layout: blog
 type: blog
 title: Reset Changes Using Git
-date: 2016-06-24
+date: 2017-06-24
 labels:
   - Software Engineering
   - Git
