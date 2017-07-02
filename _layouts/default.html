@@ -17,6 +17,10 @@
     </main>
     {% include footer.html %}
     <script src="../js/back-to-top/main.js"></script> <!-- Gem jQuery -->
+    <!-- Google Analytics -->
+    {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
   </body>
 </html>
 <!-- Ensure page refreshes to top of page -->
