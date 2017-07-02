@@ -12,5 +12,9 @@
 <script type="text/javascript" src="../js/particle/ImageParticle.js"></script>
 <script type="text/javascript" src="../js/particle/Particle.js"></script>
 
+<!-- Google Analytics -->
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
 </body>
 </html>

@@ -29,7 +29,10 @@
   </div>
 </div>
 
-
+<!-- Google Analytics -->
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
 </body>
 <!-- magnetic particles canvas -->
 <link rel="stylesheet" href="../css/404/magnetic-particles.css">

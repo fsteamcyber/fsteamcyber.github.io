@@ -27,6 +27,10 @@
   <div id="mountains"></div>
   <div id="grass"></div>
 </div>
+<!-- Google Analytics -->
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
 </body>
 <script>
   $('.ui.main.header.homepage')
