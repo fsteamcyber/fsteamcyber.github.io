@@ -13,16 +13,22 @@ labels:
   - UART
 summary: Portable datalogger webserver that utilizes Python scripts to timestamp and log GPS data via UART on a Raspberry Pi 3 into .csv files. 
 ---
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/projects/datalogger-server/datalogger1.JPG">
-  <img class="ui image" src="../images/projects/datalogger-server/datalogger2.JPG">
-  <img class="ui image" src="../images/projects/datalogger-server/datalogger3.JPG">
+<div class="ui grid">
+  <div class="four wide column">
+     <img class="ui fluid image" src="../images/projects/datalogger-server/datalogger1.JPG" data-action="zoom">
+  </div>
+  <div class="four wide column">
+    <img class="ui fluid image" src="../images/projects/datalogger-server/datalogger2.JPG" data-action="zoom">
+  </div>
+  <div class="four wide column">
+    <img class="ui fluid image" src="../images/projects/datalogger-server/datalogger3.JPG" data-action="zoom">
+  </div>
 </div>
 
 ### Project Overview
 A portable datalogger webserver capable of running on any local connection built using the [Django](https://www.djangoproject.com/) framework. Includes Python scripts to timestamp and log GPS data (or any data stream via UART) on a [Raspberry Pi](https://www.raspberrypi.org/) into .csv files. Implemented using fully customized HTML5/CSS web interface to create, edit, remove, or view logging data.
 
-<img class="ui fluid image" src="../images/projects/datalogger-server/datalogger4.JPG">
+<img class="ui fluid image" src="../images/projects/datalogger-server/datalogger4.JPG" data-action="zoom">
 
 ### Datalogger Features
 * Ability to create new logger with specified and standard/default settings. Choose baudrate, desired .csv file name, data-stream update rate, data port, and timeout.
