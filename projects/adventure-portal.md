@@ -29,4 +29,4 @@ The application was built using the web application framework, Meteor. I was pri
 ### Learning Outcomes
 From this project, I learned both technical and project management skills. On the technical side, I became familiar with the Meteor application framework and strengthened my understanding of HTML and JavaScript. I also strengthened my skills involving Git and GitHub for version control. In terms of project management, I learned how to effectively break down tasks within a project to smaller incremental steps that we referred to as issues. In addition, I learned to create, assign, and manage issues for project milestones through GitHub. 
 
-Source: <a href="https://github.com/adventure-portal/adventure-portal"><i class="large github icon"></i>https://github.com/adventure-portal/adventure-portal</a>
+Source: <a href="https://github.com/adventure-portal/adventure-portal" target="_blank"><i class="large github icon"></i>https://github.com/adventure-portal/adventure-portal</a>

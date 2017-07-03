@@ -52,4 +52,4 @@ This project provided a great opportunity to gain more experience with C++, micr
 
 For more information on the Smart Campus Energy Lab, visit this [webpage](http://scel-hawaii.org/).
 
-Source Code: <a href="https://github.com/nathancy/Team-Asteroid"><i class="large github icon "></i>https://github.com/nathancy/Team-Asteroid</a>
+Source Code: <a href="https://github.com/nathancy/Team-Asteroid" target="_blank"><i class="large github icon "></i>https://github.com/nathancy/Team-Asteroid</a>

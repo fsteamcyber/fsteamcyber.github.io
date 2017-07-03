@@ -60,6 +60,29 @@ ul {
 li > ul {
   margin-top:0;
 }
+
+/* Center embedded youtube videos */
+figure {
+  margin: 1em 0px
+}
+
+/* Responsive videos */
+.embedded-youtube-video figure {
+  position: relative;
+  nowhitespace: afterproperty;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.embedded-youtube-video iframe, .embedded-youtube-video object, .embedded-youtube-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* ========================================== */
 /* Resume
 /* ========================================== */
