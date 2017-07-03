@@ -45,4 +45,7 @@
   <link rel="stylesheet" href="../css/back-to-top/back-to-top.css">
 
   {% seo %}
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 </head>
