@@ -67,6 +67,6 @@ Additional frills:
 
 <img class="ui centered image" src="../images/projects/micromouse-simulator/level3.JPG" data-action="zoom">
 
-Source: <a href="https://github.com/nathancy/Micromouse-simulator"><i class="large github icon"></i>https://github.com/nathancy/Micromouse-simulator</a>
+Source: <a href="https://github.com/nathancy/Micromouse-simulator" target="_blank"><i class="large github icon"></i>https://github.com/nathancy/Micromouse-simulator</a>
 
-Simulator demo: <a href="https://www.youtube.com/watch?v=Nb8YTFCTzjM"><i class="large youtube icon"></i>https://www.youtube.com/watch?v=Nb8YTFCTzjM</a>
+Simulator demo: <a href="https://www.youtube.com/watch?v=Nb8YTFCTzjM" target="_blank"><i class="large youtube icon"></i>https://www.youtube.com/watch?v=Nb8YTFCTzjM</a>

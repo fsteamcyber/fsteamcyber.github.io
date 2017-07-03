@@ -64,6 +64,6 @@ The sound and image capability is powered by the [EZ Graphics Library](http://ww
 
 The Enemy class controls all functions and features relating to all enemies. The Initializer class controls background music, map generation, and the options screen. The Player class controls all actions involving the player such as collision, animation, and states. The Projectile class controls all projectiles for both the player and all enemies. 
 
-Source: <a href="https://github.com/nathancy/Metal-Slug"><i class="large github icon"></i>https://github.com/nathancy/Metal-Slug</a>
+Source: <a href="https://github.com/nathancy/Metal-Slug" target="_blank"><i class="large github icon"></i>https://github.com/nathancy/Metal-Slug</a>
 
-Video demo: <a href="https://www.youtube.com/watch?v=85yrW6rgm-s"><i class="large youtube icon"></i>https://www.youtube.com/watch?v=85yrW6rgm-s</a>
+Video demo: <a href="https://www.youtube.com/watch?v=85yrW6rgm-s" target="_blank"><i class="large youtube icon"></i>https://www.youtube.com/watch?v=85yrW6rgm-s</a>

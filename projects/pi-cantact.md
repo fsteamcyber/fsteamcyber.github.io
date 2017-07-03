@@ -21,4 +21,4 @@ The module was incrementally built by creating scripts to display messages on th
 ### Learning Outcomes
 From this project, I learned both technical and project management skills. On the technical side, I learned how to use various APIs from the OBD and Pyvit libraries, gained more experience working with Python, learned how to interface with the CAN protocol, and became familiar with the Raspberry Pi serial interface. I also strengthened my skills involving Git for version control. Regarding project management, I learned how to effectively break down tasks within a module into smaller incremental steps. 
 
-Source: <a href="https://github.com/nathancy/Pi-CANtact"><i class="large github icon"></i>https://github.com/nathancy/Pi-CANtact</a>
+Source: <a href="https://github.com/nathancy/Pi-CANtact" target="_blank"><i class="large github icon"></i>https://github.com/nathancy/Pi-CANtact</a>
