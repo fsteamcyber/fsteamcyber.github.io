@@ -29,7 +29,7 @@ At Level 0, the maze is predetermined and visible to the user. In addition, the 
 * d - turn right
 * Entire maze is visible 
 
-<img class="ui centered image" src="../images/projects/micromouse-simulator/level0.JPG">
+<img class="ui centered image" src="../images/projects/micromouse-simulator/level0.JPG" data-action="zoom">
 
 #### Level 1. The Mouse Discovers
 At Level 1, the user has the same movement commands as in Level 0, as well as the additional commands:
@@ -42,7 +42,7 @@ At Level 1, the user has the same movement commands as in Level 0, as well as th
 
 Level 1 provides a "cheat" command to reveal the full configuration of walls in the maze. The simulator keeps track of the mouse's position in the maze and adds a count of how many cells the mouse has visited. In addition, the user has a "mousecam" which shows the mouse's view of the walls on its left, right, and front sides. Level 1 also detects crashes into the walls and allows the user to restart at the start square. 
 
-<img class="ui centered image" src="../images/projects/micromouse-simulator/level1.JPG">
+<img class="ui centered image" src="../images/projects/micromouse-simulator/level1.JPG" data-action="zoom">
 
 #### Level 2. The Mouse Explores
 The user may use all above commands with the addition of:
@@ -52,7 +52,7 @@ The user may use all above commands with the addition of:
 
 This command allows the user to "peak" at the maze using the 'm' command and then hide the unknown walls again using the 'n' command. In addition, the simulator also shows a count of traversed "unique" cells.
 
-<img class="ui centered image" src="../images/projects/micromouse-simulator/level2.JPG">
+<img class="ui centered image" src="../images/projects/micromouse-simulator/level2.JPG" data-action="zoom">
 
 #### Level 3. Da Frills
 The user may use all above commands and the space command:
@@ -65,7 +65,7 @@ Additional frills:
 * A new maze map
 * Hidden easter eggs 
 
-<img class="ui centered image" src="../images/projects/micromouse-simulator/level3.JPG">
+<img class="ui centered image" src="../images/projects/micromouse-simulator/level3.JPG" data-action="zoom">
 
 Source: <a href="https://github.com/nathancy/Micromouse-simulator"><i class="large github icon"></i>https://github.com/nathancy/Micromouse-simulator</a>
 

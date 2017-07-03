@@ -17,7 +17,7 @@ The objective of this project was to design and develop low-cost, accurate, and 
 
 By collecting solar irradiance, temperature, humidity, and pressure data, this weatherbox will be used to make Hawaii a more sustainable place to live in. One part of tackling this problem is creating a microgrid for UHM that is independent of Hawaii's grid. In order to accomplish this, we are looking to find optimal places on campus to install renewable energy sources, such as PV. To find these optimal places, this weatherbox was designed and built to collect reliable weather data that can be analyzed to forecast solar irradiation patterns.
 
-<img class="ui fluid image" src="../images/projects/weatherbox/weatherbox1.JPG">
+<img class="ui fluid image" src="../images/projects/weatherbox/weatherbox1.JPG" data-action="zoom">
 
 ### Requirements
 * Weatherbox must collect solar irradiance, temperature, humidity, and pressure data.
@@ -25,7 +25,7 @@ By collecting solar irradiance, temperature, humidity, and pressure data, this w
 * Relay data wirelessly to a base node in an organized format for processing.
 * Housing must be secured, waterproof, and designed in such a way that the internals can be accessed with relative ease.
 
-<img class="ui fluid image" src="../images/projects/weatherbox/weatherbox2.JPG">
+<img class="ui fluid image" src="../images/projects/weatherbox/weatherbox2.JPG" data-action="zoom">
 
 ### Specifications/Parts
 * Microprocessor: [Atmel Atmega328P](http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet_complete.pdf)
@@ -35,8 +35,8 @@ By collecting solar irradiance, temperature, humidity, and pressure data, this w
 * Battery: [Tenergy 18650 3.7V 6600mAh](https://cdn-shop.adafruit.com/product-files/353/C450_-_ICR18650_6600mAh_3.7V_20140729.pdf)
 * Solar Irradiance Sensor: [Apogee SP-215](http://www.apogeeinstruments.com/content/SP-212_215manual.pdf)
 * Temperature Sensor: [Maxim DS18B20](https://www.maximintegrated.com/en/products/analog/sensors-and-sensor-interface/DS18B20.html)
-    * [Temperature Sensor Library](https://github.com/milesburton/Arduino-Temperature-Control-Library)
-    * [One Wire Library for Temperature Sensor](https://github.com/ntruchsess/arduino-OneWire)
+  - [Temperature Sensor Library](https://github.com/milesburton/Arduino-Temperature-Control-Library)
+  - [One Wire Library for Temperature Sensor](https://github.com/ntruchsess/arduino-OneWire)
 * Humidity Sensor: [Sensirion SHT1x](https://cdn-shop.adafruit.com/datasheets/Sensirion_Humidity_SHT1x_Datasheet_V5.pdf)
     * [Humidity Sensor Library](https://github.com/practicalarduino/SHT1x)
 * Pressure Sensor: [BMP180](https://www.adafruit.com/products/1603)
