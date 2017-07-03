@@ -31,10 +31,10 @@ Which gives you this (using --b-9HrKK6w for VIDEO-ID). But this doesn't feel lik
 
 [![Alt text for your video](https://img.youtube.com/vi/--b-9HrKK6w/0.jpg)](http://www.youtube.com/watch?v=--b-9HrKK6w)
 
-Notice how it's not completely certain if it's a image or a video.
+Notice how it's not completely certain if it's an image or a video.
 
 ## Use a video screenshot or .gif
-To make it feel more like a video, we can use a video placeholder picture, screenshot, or .gif for our image. First create a directory to hold the screenshot such as `doc/screenshot_youtube.PNG` then use this format.
+To make it feel more like a video, we can use a video placeholder picture, screenshot, or .gif for our image. First create a directory to hold the screenshot or gif such as `doc/screenshot_youtube.PNG` then use this format.
 
 Template:
 
@@ -52,7 +52,7 @@ This method gives us this. If you need a quick fix, this method "tricks" the use
 
 [![SC2 Video](../images/blog/embed-video-in-github-readme.PNG)](https://www.youtube.com/watch?v=--b-9HrKK6w "SC2 Mini game - Click to Watch!")
 
-Similarly, you could use an animated .gif instead as gifs are rendered on Github's readme. 
+Similarly, you could use an animated .gif instead since they are rendered on Github's readme. 
 
 Template:
 
@@ -63,8 +63,11 @@ Template:
 Example:
 
 ```
-[![SC2 Video](doc/SC2_youtube.PNG)](https://www.youtube.com/watch?v=--b-9HrKK6w)
+[![SC2 Video](doc/SC2_youtube.gif)](https://www.youtube.com/watch?v=--b-9HrKK6w)
 ```
 
 This method is probably the most eye catching but it takes some work to get that .gif file. 
+
+
+Good luck!
 
