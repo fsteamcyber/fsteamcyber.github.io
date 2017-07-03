@@ -5,6 +5,7 @@ image: ../images/projects/metal-slug/metal-slug1.jpg
 title: Metal Slug
 permalink: projects/metal-slug
 date: 2016
+youtubeId: 85yrW6rgm-s
 labels:
   - Java
   - Sprite
@@ -14,7 +15,7 @@ summary: Metal slug themed sprite 2D shooter game written in Java.
 ### Project Overview
 The objective of the game is to destroy the enemies and reach the end of the map. Enemies have set health and also shoot projectiles at the user. There are 8 types of enemies which all have unique projectiles, sounds, and death animations. These include both land and flying units. Sprite animation and projectile explosion animations are also options. 
 
-{% youtube 85yrW6rgm-s %}
+{% include youtubePlayer.html id=page.youtubeId %}
 
 # Features
 ### Player
