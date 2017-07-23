@@ -65,8 +65,12 @@ Example:
 ```markdown
 [![SC2 Video](doc/SC2_youtube.gif)](https://www.youtube.com/watch?v=--b-9HrKK6w)
 ```
-<a href="https://www.youtube.com/watch?v=--b-9HrKK6w" target="_blank" title="SC2 Mini game - Click to Watch!"><img src="../images/blog/embed-video-in-github-readme.gif" width="700"></a>
+<div>
+<a href="https://www.youtube.com/watch?v=--b-9HrKK6w" target="_blank" title="SC2 Mini game - Click to Watch!">
 
+<video src="../images/blog/embed-video-in-github-readme.mp4" autoplay="" loop="" playsinline="" style="width: 700px; padding-bottom:10px"></video>
+</a>
+</div>
 This method is probably the most eye catching but it takes some work to get that .gif file. 
 
 Good luck!
