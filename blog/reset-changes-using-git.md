@@ -15,7 +15,7 @@ Git is a version control system that can be extremely useful due to its ability 
 When trying to implement a new feature, testing a new UI, or just experimenting with a particular function, Git enables you to reset the codebase to your most recent commit. Thus, you are free to implement a new feature without having to worry about breaking the program or having to remember all the tiny details of what you changed. Git has a reset command used to undo changes in the staging area and in the working directory. Similarly, in a game, once you choose to "load checkpoint", all current progress is lost and you go back to when you last saved. Essentially, all progress is reverted and you go back in time.
 
 Usage:
-```
+```shell
 git reset --hard HEAD
 ```
 

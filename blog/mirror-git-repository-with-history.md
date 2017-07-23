@@ -18,7 +18,7 @@ Sometimes you may want to copy files from one repository to another and at the s
 
 To ensure no existing files are accidently removed, create a new repository on Github. You can mirror your old repository to its new home with:
 
-```
+```shell
 git clone --mirror https://github.com/username/origin-repository.git
 cd origin-repository.git
 git push --mirror https://github.com/username/new-repository.git
