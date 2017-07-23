@@ -29,6 +29,8 @@ summary: Implemented continuous electrowetting automation and precise positional
 ### Project Overview
 Continuous electrowetting (CEW) is an electromechanical response that can be used to alter the surface tension of liquid-metal droplets through the application of an electric potential. Galinstan, a liquid metal is injected into an electrolyte-filled channel and manually actuated. Although general control of liquid-metal slug locations has been demonstrated, pinpoint accuracy and automation has yet to be proven. Based on results from initial prototypes, this implementation demonstrates a CEW automation design concept to enable accurate positional control by utilizing a microcontroller and positional feedback sensors to directly improve liquid-metal device testing.
 
+<img src="../images/projects/continuous-electrowetting-automation/CEW.gif" width="700">
+
 <img class="ui fluid image" src="../images/projects/continuous-electrowetting-automation/cew4.JPG" data-action="zoom">
 
 ### Implementation
