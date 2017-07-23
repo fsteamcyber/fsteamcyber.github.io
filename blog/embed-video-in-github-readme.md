@@ -1,7 +1,7 @@
 ---
 layout: blog
 type: blog
-title: Embed Video in Github README
+title: Embed Video in Github README.md
 date: 2017-07-03
 labels:
   - Github
@@ -29,7 +29,7 @@ Example:
 ```
 Which gives you this (using --b-9HrKK6w for VIDEO-ID). But this doesn't feel like a video. We can do better.
 
-[![Alt text for your video](https://img.youtube.com/vi/--b-9HrKK6w/0.jpg)](http://www.youtube.com/watch?v=--b-9HrKK6w)
+[![Alt text for your video](https://img.youtube.com/vi/--b-9HrKK6w/0.jpg)](http://www.youtube.com/watch?v=--b-9HrKK6w "SC2 Mini game - Click to Watch!"){:target="_blank"}
 
 Notice how it's not completely certain if it's an image or a video.
 
@@ -50,7 +50,7 @@ Example:
 
 This method gives us this. If you need a quick fix, this method "tricks" the user into thinking the video is on the README page with a picture. It's not perfect but it works. 
 
-[![SC2 Video](../images/blog/embed-video-in-github-readme.PNG)](https://www.youtube.com/watch?v=--b-9HrKK6w "SC2 Mini game - Click to Watch!")
+[![SC2 Video](../images/blog/embed-video-in-github-readme.PNG)](https://www.youtube.com/watch?v=--b-9HrKK6w "SC2 Mini game - Click to Watch!"){:target="_blank"}
 
 Similarly, you could use an animated .gif instead since they are rendered on Github's readme. 
 
@@ -65,9 +65,9 @@ Example:
 ```
 [![SC2 Video](doc/SC2_youtube.gif)](https://www.youtube.com/watch?v=--b-9HrKK6w)
 ```
+<a href="https://www.youtube.com/watch?v=--b-9HrKK6w" target="_blank" title="SC2 Mini game - Click to Watch!"><img src="../images/blog/embed-video-in-github-readme.gif" width="700"></a>
 
 This method is probably the most eye catching but it takes some work to get that .gif file. 
-
 
 Good luck!
 
