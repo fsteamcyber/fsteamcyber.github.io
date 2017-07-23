@@ -18,13 +18,13 @@ http://img.youtube.com/vi/VIDEO-ID/0.jpg
 
 Template:
 
-```
+```markdown
 [![Alt text for your video](https://img.youtube.com/vi/VIDEO-ID/0.jpg)](http://www.youtube.com/watch?v=VIDEO-ID)
 ```
 
 Example:
 
-```
+```markdown
 [![SC2 Video](https://img.youtube.com/vi/--b-9HrKK6w/0.jpg)](http://www.youtube.com/watch?v=--b-9HrKK6w)
 ```
 Which gives you this (using --b-9HrKK6w for VIDEO-ID). But this doesn't feel like a video. We can do better.
@@ -38,13 +38,13 @@ To make it feel more like a video, we can use a video placeholder picture, scree
 
 Template:
 
-```
+```markdown
 [![Alt text for your video](doc/screenshot_youtube.PNG)](https://www.youtube.com/watch?v=VIDEO-ID "Put hover text here!")
 ```
 
 Example:
 
-```
+```markdown
 [![SC2 Video](doc/SC2_youtube.PNG)](https://www.youtube.com/watch?v=--b-9HrKK6w "SC2 Mini game - Click to Watch!")
 ```
 
@@ -56,13 +56,13 @@ Similarly, you could use an animated .gif instead since they are rendered on Git
 
 Template:
 
-```
+```markdown
 [![Alt text for your video](doc/gifName.gif)](https://www.youtube.com/watch?v=VIDEO-ID)
 ```
 
 Example:
 
-```
+```markdown
 [![SC2 Video](doc/SC2_youtube.gif)](https://www.youtube.com/watch?v=--b-9HrKK6w)
 ```
 <a href="https://www.youtube.com/watch?v=--b-9HrKK6w" target="_blank" title="SC2 Mini game - Click to Watch!"><img src="../images/blog/embed-video-in-github-readme.gif" width="700"></a>
