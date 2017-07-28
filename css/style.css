@@ -83,15 +83,90 @@ li > ul {
 {
   landing-navbar
   {
-    display: none;
+    display: none !important;
   }
 }
 
-@media (min-width: 740px)
+@media (min-width: 640px)
 {
-  .sidebar, .sidebar-checkbox
+  .sidebar, .sidebar-checkbox, #sidebar-checkbox, .sidebar-item, #sidebar, .sidebar-nav, .sidebar-nav-item, .sidebar-toggle
   {
-    display: none;
+    display: none !important;
+  }
+}
+
+@media (max-height: 768px) {
+  #mountains {
+    height:4em !important;
+  }
+  #grass {
+    height:3em !important;
+  }
+}
+
+@media (max-height: 768px) {
+  #container-background .ui.middle.aligned.centered.grid.text.container .ui.main.header.homepage {
+    font-size: 4em !important;
+  }
+  #container-background .wrapper .ui.middle.aligned.centered.grid.text.container.home-page-header #second-header {
+    font-size: 1.2em !important;
+  }
+  #container-background .ui.middle.aligned.centered.grid.text.container .circular.icon {
+    font-size: 2em !important;
+  }
+}
+
+@media (max-width: 640px) {
+  #mountains {
+    height:5em !important;
+  }
+  #grass {
+    height:4em !important;
+  }
+  #container-background .ui.middle.aligned.centered.grid.text.container .ui.main.header.homepage {
+    font-size: 3.35em !important;
+  }
+  #container-background .wrapper .ui.middle.aligned.centered.grid.text.container.home-page-header #second-header {
+    font-size: 1.2em !important;
+  }
+  #container-background .ui.middle.aligned.centered.grid.text.container .circular.icon {
+    font-size: 2em !important;
+  }
+}
+
+@media (max-width: 420px) {
+  #mountains {
+    height:4em !important;
+  }
+  #grass {
+    height:3em !important;
+  }
+  #container-background .ui.middle.aligned.centered.grid.text.container .ui.main.header.homepage {
+    font-size: 2.35em !important;
+  }
+  #container-background .wrapper .ui.middle.aligned.centered.grid.text.container.home-page-header #second-header {
+    font-size: .9em !important;
+  }
+  #container-background .ui.middle.aligned.centered.grid.text.container .circular.icon {
+    font-size: 1.5em !important;
+  }
+}
+
+@media (max-width: 420px) {
+  #mountains {
+    height:3.5em !important;
+  }
+  #grass {
+    height:2.35em !important;
+  }
+  #container-background .ui.middle.aligned.centered.grid.text.container .ui.main.header.homepage {
+    font-size: 2.35em !important;
+  }
+  #container-background .wrapper .ui.middle.aligned.centered.grid.text.container.home-page-header #second-header {
+    font-size: .8em !important;
+  }
+  #container-background .ui.middle.aligned.centered.grid.text.container .circular.icon {
+    font-size: 1.35em !important;
   }
 }
 
