@@ -2,7 +2,15 @@
 <html lang="{{ page.lang | default: site.lang | default: en }}">
   {% include head.html %}
   <body>
+    {% include sidebar.html %}
     {% include header.html %}
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We content-cover the
+     content to avoid any CSS collisions with our real content. -->
+    <div class="content-cover">
+
+
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <!-- Controls back-to-top, encase content -->
@@ -11,12 +19,19 @@
         </div>
         <!-- End -->
       </div>
-      <!-- Controls back-to-top -->
-      <a href="#0" class="cd-top">Top</a>
-      <!-- End -->
+
     </main>
-    {% include footer.html %}
+
+
+      {% include footer.html %}
+    </div>
+    <!-- Controls back-to-top -->
+    <a href="#0" class="cd-top">Top</a>
+    <!-- End -->
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
     <script src="../js/back-to-top/main.js"></script> <!-- Gem jQuery -->
+    <script src="../js/sidebar/sidebar.js"></script> <!-- Sidebar -->
   </body>
 </html>
 <!-- Ensure page refreshes to top of page -->
