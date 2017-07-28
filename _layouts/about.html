@@ -3,18 +3,14 @@
 
 {% include head.html %}
 
-<body>
+<body class="">
 {% include sidebar.html %}
+{% include header.html %}
 
-
-
-
-<!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+<!-- Wrap is the content to shift when toggling the sidebar. We content-cover the
      content to avoid any CSS collisions with our real content. -->
-<div class="wrap">
-
+<div class="content-cover">
     <div style="margin-top: 80px; padding-bottom:35px" class="ui text container">
-
       <h1>{{ page.title }}</h1>
       <hr>
       <!-- Controls back-to-top, encase content -->
@@ -23,27 +19,14 @@
       </div>
       <!-- End -->
     </div>
-    <!-- Controls back-to-top -->
-    <a href="#0" class="cd-top">Top</a>
-    <!-- End -->
-
-
+    {% include footer.html %}
 </div>
-
+<!-- Controls back-to-top -->
+<a href="#0" class="cd-top">Top</a>
+<!-- End -->
 <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-
-
-
-
-
-
-
-
-{% include footer.html %}
 <script src="../js/back-to-top/main.js"></script> <!-- Gem jQuery -->
 <script src="../js/sidebar/sidebar.js"></script> <!-- Sidebar -->
-
 <!-- Ensure page refreshes to top of page -->
 <script>
   window.onbeforeunload = function () {

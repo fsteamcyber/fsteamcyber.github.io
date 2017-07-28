@@ -78,6 +78,23 @@ li > ul {
   height: 100%;
 }
 
+/* Small screens, hide navigation bar and show hanburger icon */
+@media (max-width: 640px)
+{
+  landing-navbar
+  {
+    display: none;
+  }
+}
+
+@media (min-width: 740px)
+{
+  .sidebar, .sidebar-checkbox
+  {
+    display: none;
+  }
+}
+
 /* ========================================== */
 /* Resume
 /* ========================================== */
