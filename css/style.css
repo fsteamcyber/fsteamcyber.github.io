@@ -110,6 +110,43 @@ li > ul {
   .resume-mobile-screen {
     margin-top: -55px;
   }
+  /* RESUME RESUME RESUME RESUME MOBILE */
+  .ui.center.aligned.header.no-bottom {
+    margin-top: -20px;
+  }
+  #resume-pdf-download {
+    margin-top: -20px;
+  }
+  #pdf-download-container {
+    padding-top: 5px !important;
+  }
+  /* The next 2 css controls mobile contact info formatting */
+  .eight.wide.left.aligned.column.resume {
+    padding-left: 0rem;
+    width: 55% !important;
+  }
+  .eight.wide.right.aligned.column {
+    width: 45% !important;
+  }
+  .ui.stackable.grid.container.info {
+    margin-top:-30px;
+  }
+  .row .fourteen.wide.column.no-bottom.interests, .row .fourteen.wide.column.no-bottom.skills, .row .fourteen.wide.column.no-bottom.education, .row .fourteen.wide.column.no-bottom.work, .row .fourteen.wide.column.no-bottom.volunteer, .row .fourteen.wide.column.no-bottom.awards, .row .fourteen.wide.column.no-bottom.references {
+    margin-top:-20px !important;
+  }
+  .ui.left.aligned.header.no-bottom.work, .ui.left.aligned.header.no-bottom.volunteer, .ui.left.aligned.header.no-bottom.awards, .ui.left.aligned.header.no-bottom.references {
+    margin-top:12.5px;
+  }
+  h3.ui.header {
+    font-size: 1.5rem;
+  }
+  h2.ui.header {
+    font-size: 1.8rem;
+  }
+  .ui.center.aligned.header.no-bottom.name {
+    margin-top: -30px !important;
+  }
+
 }
 
 @media (min-width: 640px)
