@@ -16,8 +16,7 @@
 title: Nathan Lam
 email: nathancy@hawaii.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Nathan Lam. Computer Engineering student with a passion for
-  clean aesthetic interfaces and embedded systems.
+  Nathan Lam. Computer engineering student with a passion for embedded systems, scripting, and clean aesthetic interfaces.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.nathan-lam.com/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: nathancy
