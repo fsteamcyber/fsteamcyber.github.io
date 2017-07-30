@@ -11,7 +11,7 @@ labels:
   - Capacitive Displacement Sensors
 summary: Implemented continuous electrowetting automation and precise positional control for reconfigurable electronic devices using Galinstan.
 ---
-<div class="ui grid">
+<div style="padding-top:15px" class="ui grid">
   <div class="four wide column">
     <img class="ui rounded fluid image" src="../images/projects/continuous-electrowetting-automation/cew-logo-image.JPG" data-action="zoom">
   </div>

@@ -68,7 +68,7 @@ Example:
 <div>
 <a href="https://www.youtube.com/watch?v=--b-9HrKK6w" target="_blank" title="SC2 Mini game - Click to Watch!">
 
-<video src="../images/blog/embed-video-in-github-readme.mp4" autoplay="" loop="" playsinline="" style="width: 700px; padding-bottom:10px"></video>
+<video src="../images/blog/embed-video-in-github-readme.mp4" autoplay="" loop="" playsinline="" style="width: 100%; padding-bottom:10px"></video>
 </a>
 </div>
 This method is probably the most eye catching but it takes some work to get that .gif file. 
