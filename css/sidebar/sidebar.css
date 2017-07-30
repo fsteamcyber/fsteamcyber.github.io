@@ -3,6 +3,11 @@
   html {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   }
+
+  .ui.container, .ui.text.container {
+    padding-top:30px !important;
+  }
+
   /*
    * Wrapper
    *

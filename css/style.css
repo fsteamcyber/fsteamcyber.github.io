@@ -89,6 +89,27 @@ li > ul {
   {
     display: none !important;
   }
+
+  /* Formatting pages for mobile */
+  .projects-mobile-screen {
+    margin-top: -55px;
+  }
+  .blog-mobile-screen {
+    margin-top: -55px;
+  }
+  .about-mobile-screen {
+    margin-top: -55px;
+    margin-left: 5px;
+    margin-right: 15px;
+  }
+  .links-mobile-screen {
+    margin-top: -55px;
+    margin-left: 5px;
+    margin-right: 15px;
+  }
+  .resume-mobile-screen {
+    margin-top: -55px;
+  }
 }
 
 @media (min-width: 640px)
