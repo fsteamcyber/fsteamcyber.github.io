@@ -61,6 +61,10 @@ li > ul {
   margin-top:0;
 }
 
+.page-content {
+  padding: 15px 0;
+}
+
 /* Responsive embedded youtube */
 .embed-container {
   position: relative;

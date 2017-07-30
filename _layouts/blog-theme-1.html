@@ -11,7 +11,7 @@
      content to avoid any CSS collisions with our real content. -->
 <div class="content-cover">
 <div class="cd-container">
-  <div style="padding-top: 65px; padding-bottom: 50px" class="ui container ">
+  <div style="padding-top: 65px; padding-bottom: 35px" class="ui container ">
     <div class="ui stackable centered four cards">
       {% assign blog_pages = site.pages | where: "type", "blog" | sort: "date" | reverse %}
       {% for page in blog_pages %}
