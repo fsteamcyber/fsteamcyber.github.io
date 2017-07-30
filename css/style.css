@@ -147,7 +147,16 @@ li > ul {
     margin-top: -30px !important;
   }
 
+  /* FOOTER MOBILE */
+  .call.icon.mobile-footer, .map.icon.mobile-footer, .mail.icon.mobile-footer, .content.mail-footer, .content.address-footer, .content.call-footer  {
+    display: block !important;
+    margin: auto !important;
+  }
+  .map.icon.mobile-footer {
+    margin-top:-45px !important;
+  }
 }
+
 
 @media (min-width: 640px)
 {
