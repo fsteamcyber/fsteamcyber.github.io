@@ -81,8 +81,8 @@
     width: 14rem;
     visibility: hidden;
     overflow-y: auto;
-    font-family: "PT Sans", Helvetica, Arial, sans-serif;
-    font-size: .875rem; /* 15px */
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
     color: rgba(255, 255, 255, .6);
     background-color: #202020;
     -webkit-transition: all .3s ease-in-out;
@@ -114,6 +114,16 @@
     border-bottom: 1px solid rgba(255, 255, 255, .1);
   }
 
+  .sidebar-nav-item-header {
+    color: #18bc9c !important;
+    font-weight:600 !important;
+    display: block;
+    font-size:1.35rem;
+    padding: .5rem 1rem;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    padding-top: 15px;
+    padding-bottom: 0px;
+  }
   .sidebar-nav-item {
     display: block;
     padding: .5rem 1rem;
@@ -156,7 +166,7 @@
     display: block;
     padding: .25rem .75rem;
     color: #505050;
-    background-color: #fff;
+    background-color: #fafafa;
     border-radius: .25rem;
     cursor: pointer;
   }
