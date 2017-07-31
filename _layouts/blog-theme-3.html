@@ -7,19 +7,22 @@
 {% include sidebar.html %}
 {% include header.html %}
 
+<div class="sidebar-topnav-mobile blog-theme-3"></div>
 <!-- Wrap is the content to shift when toggling the sidebar. We content-cover the
      content to avoid any CSS collisions with our real content. -->
 <div class="content-cover">
-<div class="cd-container">
-  <div style="padding-top: 65px" class="ui four column centered stackable grid container">
-    {% assign blog_pages = site.pages | where: "type", "blog" | sort: "date" | reverse %}
-    {% for page in blog_pages %}
-    {% unless page.draft %}
-    {% include blog-card-3.html page=page %}
-    {% endunless %}
-    {% endfor %}
+  <div class="cd-container">
+    <div class="blog-mobile-screen all-blogs">
+      <div style="padding-top: 65px" class="ui four column centered stackable grid container">
+        {% assign blog_pages = site.pages | where: "type", "blog" | sort: "date" | reverse %}
+        {% for page in blog_pages %}
+        {% unless page.draft %}
+        {% include blog-card-3.html page=page %}
+        {% endunless %}
+        {% endfor %}
+      </div>
+    </div>
   </div>
-</div>
   {% include footer.html %}
 </div>
 <!-- Controls back-to-top -->

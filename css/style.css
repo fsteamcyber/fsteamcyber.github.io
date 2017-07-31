@@ -94,22 +94,89 @@ li > ul {
   .projects-mobile-screen {
     margin-top: -55px;
   }
+  .projects-mobile-screen h1 {
+    margin-top: 10px;
+  }
+  .projects-mobile-screen.all-projects {
+    margin-top: 15px;
+  }
+  .blog-mobile-screen.all-blogs {
+    margin-top: 15px;
+  }
   .blog-mobile-screen {
     margin-top: -55px;
+  }
+  .blog-mobile-screen h1 {
+    margin-top: 10px;
   }
   .about-mobile-screen {
     margin-top: -55px;
     margin-left: 5px;
     margin-right: 15px;
   }
+  .about-mobile-screen h1 {
+    margin-top:10px;
+  }
+
   .links-mobile-screen {
     margin-top: -55px;
     margin-left: 5px;
     margin-right: 15px;
   }
+  .links-mobile-screen h1 {
+    margin-top:10px;
+  }
   .resume-mobile-screen {
     margin-top: -55px;
   }
+  .content-cover .ui.middle.aligned.centered.grid.text.container h1 {
+    margin-top: 10px;
+  }
+  .header-missingpage.top {
+    margin-top:40px;
+  }
+  .sidebar-topnav-mobile {
+    background-color:rgba(0,0,0,0.3);
+    height: 55px;
+    width:100%;
+    margin-top: -35px !important;
+    position:fixed !important;
+    z-index: 6;
+  }
+  .sidebar-topnav-mobile.default {
+    background-color:rgba(0,0,0,0.3);
+    height: 50px;
+    width:100%;
+    margin-top: -35px !important;
+    position:fixed !important;
+    z-index: 6;
+  }
+  .sidebar-topnav-mobile.projects, .sidebar-topnav-mobile.blogs {
+    background-color:rgba(0,0,0,0.3);
+    height: 50px;
+    width:100%;
+    margin-top: -35px !important;
+    position:fixed !important;
+    z-index: 6;
+  }
+  .sidebar-topnav-mobile.blog-theme-3 {
+    background-color:rgba(0,0,0,0.3);
+    height: 65px;
+    width:100%;
+    margin-top: -35px !important;
+    position:fixed !important;
+    z-index: 6;
+  }
+  .sidebar-topnav-mobile.resume {
+    background-color:rgba(0,0,0,0.3);
+    height: 60px;
+    width:100%;
+    margin-top: -35px !important;
+    position:fixed !important;
+    z-index: 6;
+  }
+
+
   /* RESUME RESUME RESUME RESUME MOBILE */
   .ui.center.aligned.header.no-bottom {
     margin-top: -20px;
