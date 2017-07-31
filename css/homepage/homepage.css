@@ -15,6 +15,9 @@ body {
 #navigation-links a {
   padding: 0 0 0 0;
 }
+#navigation-links {
+  z-index:4;
+}
 
 #pixie {
   z-index:0;
@@ -26,6 +29,10 @@ body {
   filter: contrast(105%);
 }
 
+.ui.main.header.homepage {
+  z-index: 4;
+  transition: all .3s ease-in-out;
+}
 #mountains, #grass {
   width:100%;
   position:absolute;
@@ -40,6 +47,8 @@ body {
 
 #container-background .wrapper .ui.middle.aligned.centered.grid.text.container.home-page-header #second-header {
   color: #bfbfbf;
+  z-index: 4;
+  transition: all .3s ease-in-out;
 }
 
 #mountains {

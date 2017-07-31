@@ -4,30 +4,36 @@
 {% include head.html %}
 
 <body>
-
+{% include sidebar.html %}
 {% include header.html %}
+<!-- Wrap is the content to shift when toggling the sidebar. We content-cover the
+     content to avoid any CSS collisions with our real content. -->
+<div class="content-cover">
+  <canvas id='c'></canvas>
+  <div class="wrapper">
+    <div class="ui left aligned text container missingpage">
+      <h3 class="header-missingpage top">I'm sorry, that URL could not be found. Perhaps you were looking for one of the
+        following:</h3>
+      <h3 class="header-missingpage">Projects</h3>
+      <ul>
+        {% assign project_pages = site.pages | where: "type", "project" | sort: "title" %}
+        {% for page in project_pages %}
+        <li><a class="missingpage-link" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+        {% endfor %}
+      </ul>
 
-<canvas id='c'></canvas>
-<div class="wrapper">
-  <div class="ui left aligned text container missingpage">
-    <h3 class="header-missingpage">I'm sorry, that URL could not be found. Perhaps you were looking for one of the following:</h3>
-    <h3 class="header-missingpage">Projects</h3>
-    <ul>
-      {% assign project_pages = site.pages | where: "type", "project" | sort: "title" %}
-      {% for page in project_pages %}
-      <li><a class="missingpage-link" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-      {% endfor %}
-    </ul>
-
-    <h3 class="header-missingpage">Blog</h3>
-    <ul>
-      {% assign blog_pages = site.pages | where: "type", "blog" | sort: "date" | reverse %}
-      {% for page in blog_pages %}
-      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-      {% endfor %}
-    </ul>
+      <h3 class="header-missingpage">Blog</h3>
+      <ul>
+        {% assign blog_pages = site.pages | where: "type", "blog" | sort: "date" | reverse %}
+        {% for page in blog_pages %}
+        <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </div>
+<label for="sidebar-checkbox" class="sidebar-toggle"></label>
+<script src="../js/sidebar/sidebar.js"></script> <!-- Sidebar -->
 </body>
 <!-- magnetic particles canvas -->
 <link rel="stylesheet" href="../css/404/magnetic-particles.css">

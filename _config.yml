@@ -21,6 +21,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.nathan-lam.com/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: nathancy
 git_repo: nathancy
+github: https://github.com/nathancy
+linkedin: http://linkedin.com/in/nathan-lam-14b936112
+projects: /projects
+mail: mailto:nathancy@hawaii.edu
 
 include: [_data]
 
