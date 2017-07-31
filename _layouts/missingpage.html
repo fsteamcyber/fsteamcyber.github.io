@@ -12,8 +12,18 @@
   <canvas id='c'></canvas>
   <div class="wrapper">
     <div class="ui left aligned text container missingpage">
+      <div class="ui middle aligned centered grid text container invader">
+        <img style="height:50%; width:50%" class="ui center aligned image" src="../images/404/invader.gif">
+      </div>
       <h3 class="header-missingpage top">I'm sorry, that URL could not be found. Perhaps you were looking for one of the
         following:</h3>
+      <ul>
+        {% for item in site.data.menu %}
+        <li><a class="missingpage-link" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a></li>
+        {% endfor %}
+      </ul>
+
+      <!-- Add to list each page in category
       <h3 class="header-missingpage">Projects</h3>
       <ul>
         {% assign project_pages = site.pages | where: "type", "project" | sort: "title" %}
@@ -29,6 +39,7 @@
         <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
         {% endfor %}
       </ul>
+      -->
     </div>
   </div>
 </div>
@@ -38,8 +49,6 @@
 <!-- magnetic particles canvas -->
 <link rel="stylesheet" href="../css/404/magnetic-particles.css">
 <script type="text/javascript" src="../js/404/magnetic-particles.js"></script>
-
-
 </html>
 
 
