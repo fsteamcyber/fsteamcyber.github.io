@@ -178,6 +178,7 @@
     cursor: pointer;
     z-index: 7;
     margin-top: -2.5px;
+    overflow-x:hidden !important;
   }
 
   .sidebar-toggle:before {
