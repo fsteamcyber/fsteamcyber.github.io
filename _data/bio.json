@@ -5,7 +5,7 @@
     "picture": "https://nathancy.github.io/images/profile_nathan_lam.jpg",
     "email": "nathancy@hawaii.edu",
     "phone": "808-206-1027",
-    "website": "https://nathancy.github.io",
+    "website": "http://www.nathan-lam.com/",
     "summary": "I am pursuing a B.S. in Computer Engineering in the College of Engineering at the University of Hawaii. I expect to graduate in Spring 2018.",
     "location": {
       "address": "",
@@ -55,6 +55,8 @@
         "Javascript",
         "HTML",
         "CSS",
+        "Semantic UI",
+        "Meteor",
         "Python"
       ]
     },
@@ -81,7 +83,7 @@
       "studyType": "B.S.",
       "startDate": "2014-09-01",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "3.87",
       "courses": [
       ]
     }
