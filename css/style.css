@@ -216,6 +216,12 @@ li > ul {
   .map.icon.mobile-footer {
     margin-top:-45px !important;
   }
+  .footer-mobile-screen .ui.main.header.footer {
+    margin-bottom: 40px;
+  }
+  .content.call-footer {
+    padding-bottom: 20px;
+  }
 }
 
 
