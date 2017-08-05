@@ -216,8 +216,11 @@ li > ul {
   .map.icon.mobile-footer {
     margin-top:-45px !important;
   }
+  /* When on mobile, move header down */
+  #footer-main-header {
+    padding-bottom:20px;
+  }
 }
-
 
 @media (min-width: 640px)
 {

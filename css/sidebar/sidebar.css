@@ -92,12 +92,7 @@
     transition: all .3s ease-in-out;
     z-index: 8;
   }
-
-  @media (min-width: 30em) {
-    .sidebar {
-      font-size: .75rem; /* 14px */
-    }
-  }
+  
 
   /* Sidebar content */
   .sidebar a {
