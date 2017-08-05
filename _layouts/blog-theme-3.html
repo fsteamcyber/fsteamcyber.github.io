@@ -12,8 +12,9 @@
      content to avoid any CSS collisions with our real content. -->
 <div class="content-cover">
   <div class="cd-container">
+    <!-- DONT TOUCH THESE VALUES FOR MOBILE -->
     <div class="blog-mobile-screen all-blogs">
-      <div style="padding-top: 65px" class="ui four column centered stackable grid container">
+      <div style="margin-top:80px;" class="ui four column centered stackable grid container">
         {% assign blog_pages = site.pages | where: "type", "blog" | sort: "date" | reverse %}
         {% for page in blog_pages %}
         {% unless page.draft %}
