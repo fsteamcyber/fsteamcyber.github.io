@@ -13,10 +13,13 @@
   <div class="wrapper">
     <div class="ui left aligned text container missingpage">
       <div class="ui middle aligned centered grid text container invader">
-        <img style="height:50%; width:50%" class="ui center aligned image" src="../images/404/invader.gif">
+        <img class="ui center aligned image invader" src="../images/404/invader.gif">
       </div>
-      <h3 class="header-missingpage top">I'm sorry, that URL could not be found. Perhaps you were looking for one of the
-        following:</h3>
+      <div class="ui middle aligned centered grid text container four-o-four">
+        <img class="ui center aligned image four-o-four" src="../images/404/404-image.png">
+      </div>
+      <!-- Modify this for mobile -->
+      <h3 class="header-missingpage top">Oops! We can't seem to find the page you're looking for. Here are some helpful links instead. Perhaps you were looking for one of the following: </h3>
       <ul>
         {% for item in site.data.menu %}
         <li><a class="missingpage-link" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a></li>
