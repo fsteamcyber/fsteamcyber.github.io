@@ -91,13 +91,10 @@ li > ul {
 
   /* Formatting pages for mobile */
   .projects-mobile-screen {
-    margin-top: -55px;
-  }
-  .projects-mobile-screen h1 {
-    margin-top: 10px;
+    margin-top: -15px;
   }
   .projects-mobile-screen.all-projects {
-    margin-top: 15px;
+    margin-top: -30px;
   }
   .blog-mobile-screen.all-blogs {
     margin-top: 15px;
@@ -144,7 +141,6 @@ li > ul {
     background-color:rgba(0,0,0,0.3);
     height: 50px;
     width:100%;
-    margin-top: -35px !important;
     position:fixed !important;
     z-index: 6;
   }
@@ -152,7 +148,6 @@ li > ul {
     background-color:rgba(0,0,0,0.3);
     height: 50px;
     width:100%;
-    margin-top: -35px !important;
     position:fixed !important;
     z-index: 6;
   }
