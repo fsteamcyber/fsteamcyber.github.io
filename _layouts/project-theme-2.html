@@ -10,8 +10,9 @@
 <!-- Wrap is the content to shift when toggling the sidebar. We content-cover the
      content to avoid any CSS collisions with our real content. -->
 <div class="content-cover">
-  <div style="padding-bottom:35px" class="cd-container">
-    <div style="padding-top: 65px" class="ui container ">
+  <!-- DONT TOUCH THESE VALUES FOR MOBILE -->
+  <div style="margin-bottom:55px;" class="cd-container">
+    <div style="margin-top:100px;" class="ui container">
       <div class="projects-mobile-screen all-projects">
         <div class="ui stackable centered four cards">
           {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
