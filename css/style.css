@@ -81,7 +81,7 @@ li > ul {
   height: 100%;
 }
 
-/* Small screens, hide navigation bar and show hanburger icon */
+/* Small screens, hide navigation bar and show hamburger icon */
 @media (max-width: 640px)
 {
   landing-navbar
