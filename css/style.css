@@ -189,10 +189,10 @@ li > ul {
   .ui.stackable.grid.container.info {
     margin-top:-30px;
   }
-  .row .fourteen.wide.column.no-bottom.interests, .row .fourteen.wide.column.no-bottom.skills, .row .fourteen.wide.column.no-bottom.education, .row .fourteen.wide.column.no-bottom.work, .row .fourteen.wide.column.no-bottom.volunteer, .row .fourteen.wide.column.no-bottom.awards, .row .fourteen.wide.column.no-bottom.references {
+  .row .fourteen.wide.column.no-bottom.interests, .row .fourteen.wide.column.no-bottom.skills, .row .fourteen.wide.column.no-bottom.education, .row .fourteen.wide.column.no-bottom.projects, .row .fourteen.wide.column.no-bottom.work, .row .fourteen.wide.column.no-bottom.volunteer, .row .fourteen.wide.column.no-bottom.awards, .row .fourteen.wide.column.no-bottom.references {
     margin-top:-20px !important;
   }
-  .ui.left.aligned.header.no-bottom.work, .ui.left.aligned.header.no-bottom.volunteer, .ui.left.aligned.header.no-bottom.awards, .ui.left.aligned.header.no-bottom.references {
+  .ui.left.aligned.header.no-bottom.work, .ui.left.aligned.header.no-bottom.volunteer, .ui.left.aligned.header.no-bottom.awards, .ui.left.aligned.header.no-bottom.projects,.ui.left.aligned.header.no-bottom.references {
     margin-top:12.5px;
   }
   .ui.left.aligned.header.no-bottom.interests {

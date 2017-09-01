@@ -102,7 +102,7 @@
       "website": "https://www.boozallen.com/",
       "startDate": "2017-06-08",
       "endDate": "Present",
-      "COMMENT_summary": "Designed and implemented web-based data-logger",
+      "COMMENT_summary": "",
       "highlights": [
         "Researched a prototype proof-of-concept based on blockchain technology to define trust relationships through secured vehicle-to-vehicle communications",
         "Developed autonomous robotic cars using LIDAR and the Zigbee wireless protocol capable of informing network traffic for collective decision-making",
@@ -122,6 +122,54 @@
         "Designed and customized web interface using HTML5/CSS to create, edit, remove, or view logging data"
       ]
     }
+  ],
+  "projects": [
+    {
+      "description": "REIS Sensing and Monitoring",
+      "role": "Software Team",
+      "website": "http://scel-hawaii.org/",
+      "startDate": "2016",
+      "endDate": "Present",
+      "COMMENT_summary": "",
+      "highlights": [
+        "Design and implement firmware for highly distributed weather sensor network to analyze solar irradiance, pressure, humidity, and temperature patterns",
+        "Maintain/update data collection and storage infrastructure"
+      ]
+    },
+    {
+      "description": "Android App",
+      "role": "Software Team",
+      "website": "",
+      "startDate": "2016",
+      "endDate": "",
+      "COMMENT_summary": "",
+      "highlights": [
+        "Built application using OCR technology to convert scanned text captured by a digital camera into a digital format"
+      ]
+    },
+    {
+      "description": "Smart Campus Energy Lab",
+      "role": "Weatherbox Team",
+      "website": "",
+      "startDate": "2016",
+      "endDate": "",
+      "COMMENT_summary": "",
+      "highlights": [
+        "Designed and programmed a low-cost, accurate, and reliable prototype weatherbox using environmental sensor modules to forecast weather patterns"
+      ]
+    },
+    {
+      "description": "Liquid-Metal Electronics",
+      "role": "Software Lead",
+      "website": "",
+      "startDate": "2016",
+      "endDate": "",
+      "COMMENT_summary": "",
+      "highlights": [
+        "Implemented continuous electrowetting automation and precise positional control for reconfigurable electronic devices using Galinstan",
+        "Eliminated manual actuation requirement and improved RF device prototyping"
+      ]
+    },
   ],
   "volunteer": [
     {
