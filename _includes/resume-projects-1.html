@@ -1,17 +1,17 @@
 <!-- Used by theme-bio-builtin-1 -->
 
-{% if site.data.bio.work %}
+{% if site.data.bio.projects %}
 <div class="row">
   <div class="two wide column">
-    <h3 class="ui left aligned header no-bottom work">Work</h3>
+    <h3 class="ui left aligned header no-bottom projects">Projects</h3>
   </div>
 
-  <div class="fourteen wide column no-bottom work">
-    {% for entry in site.data.bio.work %}
+  <div class="fourteen wide column no-bottom projects">
+    {% for entry in site.data.bio.projects %}
 
     <div class="ui grid">
       <div class="twelve wide column no-bottom">
-        <p class="ui no-bottom"><b>{{ entry.position }}, {{ entry.company }}</b></p>
+        <p class="ui no-bottom"><b>{{ entry.description }}, {{ entry.role }}</b></p>
         <p class="ui no-bottom"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://"
           }}</a></p>
         <p class="ui no-bottom">{{ entry.summary }}</p>
