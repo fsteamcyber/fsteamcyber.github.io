@@ -6,7 +6,7 @@
     "email": "nathancy@hawaii.edu",
     "phone": "808-206-1027",
     "website": "http://www.nathan-lam.com/",
-    "summary": "I am pursuing a B.S. in Computer Engineering in the College of Engineering at the University of Hawaii. I expect to graduate in Spring 2018.",
+    "summary": "Senior Computer Engineering undergraduate student at the University of Hawaii at Manoa. Some of my interests include embedded systems, firmware development, and web development.",
     "location": {
       "address": "",
       "postalCode": "96815",
@@ -39,6 +39,11 @@
       ]
     },
     {
+      "name": "Web Development",
+      "keywords": [
+      ]
+    },
+    {
       "name": "Firmware Development",
       "keywords": [
       ]
@@ -55,7 +60,9 @@
         "Javascript",
         "HTML",
         "CSS",
+        "Django",
         "Semantic UI",
+        "Jekyll",
         "Meteor",
         "Python"
       ]
@@ -67,7 +74,7 @@
         "Vim",
         "gcc",
         "g++",
-        "Git/GitHub",
+        "Git",
         "Ubuntu",
         "Windows",
         "Verilog",
@@ -90,15 +97,28 @@
   ],
   "work": [
     {
+      "company": "Booz Allen Hamilton",
+      "position": "Summer Games Cyber Intern",
+      "website": "https://www.boozallen.com/",
+      "startDate": "2017-06-08",
+      "endDate": "Present",
+      "COMMENT_summary": "Designed and implemented web-based data-logger",
+      "highlights": [
+        "Researched a prototype proof-of-concept based on blockchain technology to define trust relationships through secured vehicle-to-vehicle communications",
+        "Developed autonomous robotic cars using LIDAR and the Zigbee wireless protocol capable of informing network traffic for collective decision-making",
+        "Simulated successful high-trust communications protocol and autonomous resilience against the injection of malicious inputs by rouge actors"
+      ]
+    },
+    {
       "company": "Spectrum Photonics Inc.",
       "position": "Engineering Intern",
       "website": "http://spectrum-photonics.com/",
-      "startDate": "2016-05-06",
-      "endDate": "Present",
-      "summary": "Designed and implemented web-based data-logger",
+      "startDate": "2016",
+      "endDate": "",
+      "COMMENT_summary": "Designed and implemented web-based data-logger",
       "highlights": [
-        "Built data-logger web-server from scratch using the Django web framework",
-        "Wrote Python scripts to log data via UART on a Raspberry Pi into .csv files",
+        "Built data-logger web-server from scratch using the Django web framework to log data via UART on a Raspberry Pi into .csv files using Python scripts",
+        "Improved data collection efficiency and enabled instant data conversion",
         "Designed and customized web interface using HTML5/CSS to create, edit, remove, or view logging data"
       ]
     }
@@ -122,8 +142,8 @@
       "endDate": "",
       "summary": "",
       "highlights": [
-        "Member, IEEE-Eta Kappa Nu Honor Society, 2016-Present",
-        "Member, IEEE Student Branch, 2015-Present",
+        "Webmaster, IEEE-Eta Kappa Nu Honor Society, 2016-Present",
+        "Treasurer, IEEE Student Branch, 2015-Present",
         "Member, Golden Key International Honor Society, 2015-Present",
         "Member, Honors Program, 2014-Present"
       ]
