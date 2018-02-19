@@ -79,6 +79,7 @@
         "Windows",
         "Verilog",
         "MATLAB",
+        "Intellij",
         "Cygwin"
       ]
     }
@@ -111,7 +112,7 @@
     },
     {
       "company": "Spectrum Photonics Inc.",
-      "position": "Engineering Intern",
+      "position": "Software Engineer Intern",
       "website": "http://spectrum-photonics.com/",
       "startDate": "2016",
       "endDate": "",
@@ -124,6 +125,17 @@
     }
   ],
   "projects": [
+    {
+      "description": "Micromouse",
+      "role": "Firmware Team",
+      "startDate": "2017",
+      "endDate": "Present",
+      "COMMENT_summary": "",
+      "highlights": [
+        "Design and build an autonomous self-contained robotic vehicle capable of navigating through a previously unknown maze with the shortest time and path",
+        "Implement adaptive intelligence through positional/velocity controllers and a modified Flood Fill algorithm to reliably find the optimal route to the center of a maze"
+      ]
+    },
     {
       "description": "REIS Sensing and Monitoring",
       "role": "Software Team",
