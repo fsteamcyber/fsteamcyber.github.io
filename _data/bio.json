@@ -6,7 +6,7 @@
     "email": "nathancy@hawaii.edu",
     "phone": "808-206-1027",
     "website": "http://www.nathan-lam.com/",
-    "summary": "Senior Computer Engineering undergraduate student at the University of Hawaii at Manoa. Some of my interests include embedded systems, firmware development, and web development.",
+    "summary": "Senior Computer Engineering undergraduate student at the University of Hawaii at Manoa. Some of my interests include embedded systems, firmware development, Internet of Things, and front-end web development.",
     "location": {
       "address": "",
       "postalCode": "96815",
@@ -34,12 +34,12 @@
       ]
     },
     {
-      "name": "Artificial Intelligence",
+      "name": "Internet of Things",
       "keywords": [
       ]
     },
     {
-      "name": "Web Development",
+      "name": "Front-end Web Development",
       "keywords": [
       ]
     },
@@ -87,11 +87,11 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Engineering (expected Spring, 2018)",
+      "area": "Computer Engineering (May 2018)",
       "studyType": "B.S.",
       "startDate": "2014-09-01",
       "endDate": "Present",
-      "gpa": "3.87",
+      "gpa": "3.91",
       "courses": [
       ]
     }
@@ -105,9 +105,20 @@
       "endDate": "Present",
       "COMMENT_summary": "",
       "highlights": [
-        "Researched a prototype proof-of-concept based on blockchain technology to define trust relationships through secured vehicle-to-vehicle communications",
-        "Developed autonomous robotic cars using LIDAR and the Zigbee wireless protocol capable of informing network traffic for collective decision-making",
+        "Designed a proof-of-concept system based on blockchain technology to define trust relationships through vehicle-to-vehicle communications",
+        "Developed autonomous robotic cars using Python, LIDAR, and the ZigBee wireless protocol capable of relaying traffic information to surrounding vehicles for collective decision-making",
         "Simulated successful high-trust communications protocol and autonomous resilience against the injection of malicious inputs by rouge actors"
+      ]
+    },
+    {
+      "company": "University of Hawaii at Manoa",
+      "position": "Undergraduate Teaching Assistant",
+      "website": "https://manoa.hawaii.edu/",
+      "startDate": "2017-01-01",
+      "endDate": "2017-05-11",
+      "COMMENT_summary": "",
+      "highlights": [
+        "Facilitated object-oriented programming course in C++ through weekly labs and assignments for 26 students"
       ]
     },
     {
@@ -127,41 +138,42 @@
   "projects": [
     {
       "description": "Micromouse",
-      "role": "Firmware Team",
+      "role": "Lead Embedded Firmware Developer",
       "startDate": "2017",
       "endDate": "Present",
       "COMMENT_summary": "",
       "highlights": [
-        "Design and build an autonomous self-contained robotic vehicle capable of navigating through a previously unknown maze with the shortest time and path",
-        "Implement adaptive intelligence through positional/velocity controllers and a modified Flood Fill algorithm to reliably find the optimal route to the center of a maze"
+        "Designed and built an autonomous self-contained robotic vehicle capable of navigating through a previously unknown maze with the shortest time and path",
+        "Implemented adaptive intelligence through positional/velocity controllers and a modified Flood Fill algorithm to reliably find the optimal route to the center of a maze",
+        "Won 2nd place at the IEEE Region 6 Central Area Micromouse competition"
       ]
     },
     {
       "description": "REIS Sensing and Monitoring",
-      "role": "Software Team",
+      "role": "Lead Software Developer",
       "website": "http://scel-hawaii.org/",
       "startDate": "2016",
       "endDate": "Present",
       "COMMENT_summary": "",
       "highlights": [
-        "Design and implement firmware for highly distributed weather sensor network to analyze solar irradiance, pressure, humidity, and temperature patterns",
-        "Maintain/update data collection and storage infrastructure"
+        "Designed and implemented a dashboard for a highly distributed weather sensor network to analyze solar irradiance, pressure, humidity, and temperature patterns",
+        "Maintained data collection and storage infrastructure"
       ]
     },
     {
-      "description": "Android App",
-      "role": "Software Team",
+      "description": "TextBuddy Android App",
+      "role": "Software Developer",
       "website": "",
       "startDate": "2016",
       "endDate": "",
       "COMMENT_summary": "",
       "highlights": [
-        "Built application using OCR technology to convert scanned text captured by a digital camera into a digital format"
+        "Built application using Optical Character Recognition (OCR) technology to convert scanned text captured by a camera into a digital format"
       ]
     },
     {
       "description": "Smart Campus Energy Lab",
-      "role": "Weatherbox Team",
+      "role": "Embedded Firmware Developer",
       "website": "",
       "startDate": "2016",
       "endDate": "",
@@ -172,7 +184,7 @@
     },
     {
       "description": "Liquid-Metal Electronics",
-      "role": "Software Lead",
+      "role": "Firmware Developer",
       "website": "",
       "startDate": "2016",
       "endDate": "",
@@ -214,7 +226,7 @@
       "title": "Manoa Chancellor's Scholarship",
       "date": "2014-Present",
       "awarder": "University of Hawaii at Manoa",
-      "summary": "A maximum of 80 scholarships of $10,000 annually ($5,000/semester) will be awarded by the Office of Admissions to high-achieving Hawaiʻi high school graduates."
+      "summary": "Scholarships awarded to the top 5% of incoming freshmen worth $10000/year."
     },
     {
       "title": "Dean's List",
