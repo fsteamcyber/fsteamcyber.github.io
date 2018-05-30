@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: ../images/projects/jekyll-embed-video/embed-square.JPG
+image: ../images/projects/jekyll-embed-video/embed-square.jpg
 title: Jekyll Embed Video
 permalink: projects/jekyll-embed-video
 date: 2017
