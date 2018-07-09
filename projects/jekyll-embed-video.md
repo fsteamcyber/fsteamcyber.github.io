@@ -9,6 +9,7 @@ date: 2017
 youtubeId: lDi9uFcD7XI
 vimeoId: 22439234
 twitchId: SpinelessGeniusWaterKappaClaus
+driveId: 0B7L_dMcaZknxVTRndmdSQ0F5OFE/preview
 
 labels:
   - Jekyll
@@ -34,3 +35,7 @@ Source: <a href="https://github.com/nathancy/jekyll-embed-video" target="_blank"
 ### Twitch
 
 {% include twitchPlayer.html id=page.twitchId %}
+
+### Google Drive 
+
+{% include googleDrivePlayer.html id=page.driveId %}
