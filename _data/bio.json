@@ -1,29 +1,29 @@
 {
   "basics": {
-    "name": "Nathan Lam",
-    "label": "Student",
-    "picture": "https://nathancy.github.io/images/profile_nathan_lam.jpg",
-    "email": "nathancy@hawaii.edu",
-    "phone": "808-206-1027",
-    "website": "http://www.nathan-lam.com/",
-    "summary": "Senior Computer Engineering undergraduate student at the University of Hawaii at Manoa. Some of my interests include embedded systems, firmware development, Internet of Things, and front-end web development.",
+    "name": "FSTEAM CYBER INDONESIA",
+    "label": "ORGANISASI",
+    "picture": "https://fsteamcyber.github.io/gambar/fsteamcyber.jpg",
+    "email": "fsteamcyber@gmail.com",
+    "phone": "+62822-836-836-87",
+    "website": "http://fsteamcyber.github.io",
+    "summary": "organisasi dibidang IT didirikan pada tanggal 12 Mei 2012 di kabupaten rokan hulu provinsi riau. memang belum banyak yang tau tentang organisasi kami. setidaknya kami telah berkontribusi buat orang , banyak yang telah kami ciptakan mulai dari keamanan website ,Aplikasi,games dll.ini adalah halaman mirror situs kami. .",
     "location": {
       "address": "",
       "postalCode": "96815",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "city": "TANDUN",
+      "countryCode": "ID",
+      "region": "RIAU"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "nathancy",
-        "url": "http://github.com/nathancy"
+        "username": "fsteamcyber",
+        "url": "http://github.com/fsteamcyber"
       },
       {
-        "network": "linkedin",
-        "username": "Nathan Lam",
-        "url": "http://linkedin.com/in/nathan-lam-14b936112"
+        "network": "Facebook",
+        "username": "Fsteam cyber indonesia",
+        "url": "http://fb.com/fsteamcyber"
       }
     ]
   },
@@ -64,7 +64,10 @@
         "Semantic UI",
         "Jekyll",
         "Meteor",
-        "Python"
+        "Python",
+        "PHP",
+        "JQUERY",
+        "OTHER"
       ]
     },
     {
@@ -80,171 +83,10 @@
         "Verilog",
         "MATLAB",
         "Intellij",
-        "Cygwin"
+        "Cygwin",
+        "linux",
+        "kotlin",
+        "git"
       ]
     }
-  ],
-  "education": [
-    {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Engineering (May 2018)",
-      "studyType": "B.S.",
-      "startDate": "2014-09-01",
-      "endDate": "Present",
-      "gpa": "3.91",
-      "courses": [
-      ]
-    }
-  ],
-  "work": [
-    {
-      "company": "Booz Allen Hamilton",
-      "position": "Summer Games Cyber Intern",
-      "website": "https://www.boozallen.com/",
-      "startDate": "2017-06-08",
-      "endDate": "Present",
-      "COMMENT_summary": "",
-      "highlights": [
-        "Designed a proof-of-concept system based on blockchain technology to define trust relationships through vehicle-to-vehicle communications",
-        "Developed autonomous robotic cars using Python, LIDAR, and the ZigBee wireless protocol capable of relaying traffic information to surrounding vehicles for collective decision-making",
-        "Simulated successful high-trust communications protocol and autonomous resilience against the injection of malicious inputs by rouge actors"
-      ]
-    },
-    {
-      "company": "University of Hawaii at Manoa",
-      "position": "Undergraduate Teaching Assistant",
-      "website": "https://manoa.hawaii.edu/",
-      "startDate": "2017-01-01",
-      "endDate": "2017-05-11",
-      "COMMENT_summary": "",
-      "highlights": [
-        "Facilitated object-oriented programming course in C++ through weekly labs and assignments for 26 students"
-      ]
-    },
-    {
-      "company": "Spectrum Photonics Inc.",
-      "position": "Software Engineer Intern",
-      "website": "http://spectrum-photonics.com/",
-      "startDate": "2016",
-      "endDate": "",
-      "COMMENT_summary": "Designed and implemented web-based data-logger",
-      "highlights": [
-        "Built data-logger web-server from scratch using the Django web framework to log data via UART on a Raspberry Pi into .csv files using Python scripts",
-        "Improved data collection efficiency and enabled instant data conversion",
-        "Designed and customized web interface using HTML5/CSS to create, edit, remove, or view logging data"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "description": "Micromouse",
-      "role": "Lead Embedded Firmware Developer",
-      "startDate": "2017",
-      "endDate": "Present",
-      "COMMENT_summary": "",
-      "highlights": [
-        "Designed and built an autonomous self-contained robotic vehicle capable of navigating through a previously unknown maze with the shortest time and path",
-        "Implemented adaptive intelligence through positional/velocity controllers and a modified Flood Fill algorithm to reliably find the optimal route to the center of a maze",
-        "Won 2nd place at the IEEE Region 6 Central Area Micromouse competition"
-      ]
-    },
-    {
-      "description": "REIS Sensing and Monitoring",
-      "role": "Lead Software Developer",
-      "website": "http://scel-hawaii.org/",
-      "startDate": "2016",
-      "endDate": "Present",
-      "COMMENT_summary": "",
-      "highlights": [
-        "Designed and implemented a dashboard for a highly distributed weather sensor network to analyze solar irradiance, pressure, humidity, and temperature patterns",
-        "Maintained data collection and storage infrastructure"
-      ]
-    },
-    {
-      "description": "TextBuddy Android App",
-      "role": "Software Developer",
-      "website": "",
-      "startDate": "2016",
-      "endDate": "",
-      "COMMENT_summary": "",
-      "highlights": [
-        "Built application using Optical Character Recognition (OCR) technology to convert scanned text captured by a camera into a digital format"
-      ]
-    },
-    {
-      "description": "Smart Campus Energy Lab",
-      "role": "Embedded Firmware Developer",
-      "website": "",
-      "startDate": "2016",
-      "endDate": "",
-      "COMMENT_summary": "",
-      "highlights": [
-        "Designed and programmed a low-cost, accurate, and reliable prototype weatherbox using environmental sensor modules to forecast weather patterns"
-      ]
-    },
-    {
-      "description": "Liquid-Metal Electronics",
-      "role": "Firmware Developer",
-      "website": "",
-      "startDate": "2016",
-      "endDate": "",
-      "COMMENT_summary": "",
-      "highlights": [
-        "Implemented continuous electrowetting automation and precise positional control for reconfigurable electronic devices using Galinstan",
-        "Eliminated manual actuation requirement and improved RF device prototyping"
-      ]
-    },
-  ],
-  "volunteer": [
-    {
-      "organization": "American Red Cross Summer Buddies",
-      "website": "http://www.redcross.org/local/hawaii/take-a-class/aquatics",
-      "position": "Swim Coordinator",
-      "startDate": "2008-06-01",
-      "endDate": "2014-08-01",
-      "summary": "Taught kids (ages 3-11) how to swim, educated about ocean safety, First Aid/CPR Certification, and various community service projects.",
-      "highlights": [
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Webmaster, IEEE-Eta Kappa Nu Honor Society, 2016-Present",
-        "Treasurer, IEEE Student Branch, 2015-Present",
-        "Member, Golden Key International Honor Society, 2015-Present",
-        "Member, Honors Program, 2014-Present"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Manoa Chancellor's Scholarship",
-      "date": "2014-Present",
-      "awarder": "University of Hawaii at Manoa",
-      "summary": "Scholarships awarded to the top 5% of incoming freshmen worth $10000/year."
-    },
-    {
-      "title": "Dean's List",
-      "date": "Fall 2014-Present",
-      "awarder": "University of Hawaii College of Engineering",
-      "summary": "Awarded to students who earn a semester grade point average of 3.5 or higher based on 12 credits or more taken for a grade."
-    },
-    {
-      "title": "1st Place Division B Oahu Mathematics League Champions",
-      "date": "2011-2013",
-      "awarder": "Oahu Math League",
-      "summary": "OML is a mathematics competition league open to high schools statewide which include 32 schools (19 public, 13 private), including five Big Island schools who compete remotely."
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request",
-      "reference": ""
-    }
-  ]
-}
+ 
