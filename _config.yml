@@ -13,18 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Nathan Lam
-email: nathancy@hawaii.edu
+title: FSteam Cyber indonesia
+email: fsteamcyber@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Nathan Lam. Computer engineering student with a passion for embedded systems, scripting, and clean aesthetic interfaces.
+  hanya sebuah komunitas IT yang tak dikenali banyak orang
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://fsteamcyber.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: nathancy
-git_repo: nathancy
-github: https://github.com/nathancy
-linkedin: http://linkedin.com/in/nathan-lam-14b936112
+github_username: mr614ck
+git_repo: mr614ck
+github: https://github.com/mr614ck
+linkedin: http://linkedin.com/in/fsteamcyber
 projects: /projects
-mail: mailto:nathancy@hawaii.edu
+mail: mailto:fsteamcyber@gmail.com
 
 include: [_data]
 
