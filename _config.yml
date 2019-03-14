@@ -50,9 +50,9 @@ exclude:
 # Jekyll-seo-tag config
 
 social:
-  name: Nathan Lam
+  name: FSTEAM CYBER
   links:
-    - https://github.com/nathancy
+    - https://fsteamcyber.github.io
 
 logo: /images/nathan-logo.png
 google_analytics: UA-101994139-1
